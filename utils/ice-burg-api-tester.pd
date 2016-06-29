@@ -1,11 +1,11 @@
-#N canvas 201 23 745 621 10;
+#N canvas 217 23 1039 705 10;
 #X msg 19 153 connect localhost 8000;
 #X msg 81 191 disconnect;
 #X obj 177 305 list prepend send;
 #X obj 175 333 list trim;
 #X obj 146 499 netsend -u -b;
 #X obj 188 270 oscformat;
-#X obj 186 124 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 186 124 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 162 86 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -19,8 +19,16 @@
 #X obj 433 336 list trim;
 #X obj 446 273 oscformat;
 #X obj 475 82 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 11300 1;
+-1 -1 0 1;
 #X obj 475 108 / 127;
+#X msg 734 137 format float;
+#X obj 682 309 list prepend send;
+#X obj 680 337 list trim;
+#X obj 693 274 oscformat;
+#X obj 722 83 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 12700 1;
+#X obj 722 109 / 127;
+#X msg 769 204 set iceburg volume;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
@@ -40,3 +48,10 @@
 #X connect 16 0 14 0;
 #X connect 17 0 18 0;
 #X connect 18 0 16 0;
+#X connect 19 0 22 0;
+#X connect 20 0 21 0;
+#X connect 21 0 4 0;
+#X connect 22 0 20 0;
+#X connect 23 0 24 0;
+#X connect 24 0 22 0;
+#X connect 25 0 22 0;
