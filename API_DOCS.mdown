@@ -1,0 +1,26 @@
+## Ice Burg API Documentation
+
+### Core Sound
+
+**ADDRESS:**
+`/iceburg/sensor/X/status`
+
+**PARAMETERS:**
+`1 parameter (INT): 0 (off) or 1 (on)`
+
+**NOTES:**
+
+Assumes 1 when user touches one of sculpture's sensors, 0 when they take their hand away.
+
+1 will initiate sound, 0 will end.
+
+### Proximity Sound
+**ADDRESS:**
+`/iceburg/proximity`
+
+**PARAMETERS:**
+`1 parameter (FLOAT): between 0 and 1`
+
+**NOTES:**
+
+Based on user's proximity to the sculpture. No user will register as 0. 1 represents as close as user can be before touching sculpture.
