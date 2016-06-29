@@ -1,0 +1,31 @@
+# Ice-Burg
+### Sound Design and Audio Programming
+**Concept and Execution: Nathan Koch**
+
+The artist’s goals for this piece are threefold:
+1. Attract passers-by to the sculpture through sound.
+2. Reward participants sonically for approaching and interacting with the sculpture
+3. Create unique sounds derived from specific sensor combinations to encourage more participants to join in the experience.
+
+## Core Sound
+
+The core sound of the piece (once activated by sensors) will be a drone derived from the harmonic series. As more users fit their hands to the sensors, more and more overtones will be added to create a harmonically rich drone.
+
+Each combination of sensors will both add a set of overtones and impose a slight rhythmic pulse to the sound.  As every combination is different, it will encourage additional participants to join in (or change their hand locations) and shape the sound over time.
+
+### Core Sound API Calls
+
+#### Core Sound (based on user touch)
+`/iceburg/sensor/X/status`.
+`1 parameter (INT): 0: off or 1: on`
+
+## Ambient Sound
+When not in active use, the piece will periodically create a low (both in pitch and volume), slowly modulated pulsing sound that would ideally synchronize with slowly pulsing LED’s on the sculpture.
+
+## Proximity Sound
+When the first participant approaches, the piece will emit a series of midrange chirps/pitch sweeps that happen more frequently as the distance to the sculpture is closed.
+
+## Aesthetics
+These sounds will be derived from a mix of additive synthesis, adding pure sine waves of different frequencies together to create somewhat richer timbres, and frequency modulation to add cold, digital, bell-like qualities to the overall tone. The timbre will change over time, shaped by a mix of low-frequency oscillators and the ‘beating’ quality similar to tuning a guitar that comes from neighboring frequencies (for instance, 440 Hz and 441 Hz).
+
+ All sounds will be synthesized on the fly. No samples or loops will be used. The sound will in part be shaped by the overall technical limitations of the Raspberry Pi, which may reduce overall frequency range or dynamics.
