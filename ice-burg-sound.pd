@@ -1,5 +1,5 @@
-#N canvas 27 23 1178 811 10;
-#X obj 348 662 dac~;
+#N canvas -28 23 1367 929 10;
+#X obj 891 230 dac~;
 #X obj 82 26 netreceive -u -b 8000;
 #N canvas 47 49 1271 411 sensormap 0;
 #X obj 66 115 select 0 1 2 3 4 5 6 7 8 9, f 71;
@@ -271,7 +271,7 @@
 #X text 562 24 PARAM #2 (INT - RANGE 0 to 1) : sensor status;
 #X text 563 6 PARAM #1 (INT - RANGE 0 to 9) : sensor num;
 #X text 556 66 (casting these to ints just in case of bad data), f
-123;
+139;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;
@@ -317,7 +317,7 @@
 #X connect 43 1 45 0;
 #X connect 44 0 0 0;
 #X connect 45 0 41 0;
-#X restore 101 238 pd sensormap, f 139;
+#X restore 101 238 pd sensormap;
 #N canvas 97 23 1096 724 partialmixer~ 0;
 #X obj 367 287 outlet~ audio;
 #X obj 144 45 inlet~ partial1;
@@ -341,7 +341,7 @@
 #X obj 880 87 *~ 0.1;
 #X obj 981 87 *~ 0.1;
 #X obj 383 184 throw~ allpartials;
-#X obj 374 228 catch~ allpartials, f 35;
+#X obj 374 228 catch~ allpartials, f 70;
 #X connect 1 0 12 0;
 #X connect 2 0 11 0;
 #X connect 3 0 13 0;
@@ -362,7 +362,7 @@
 #X connect 18 0 21 0;
 #X connect 19 0 21 0;
 #X connect 22 0 0 0;
-#X restore 352 606 pd partialmixer~, f 70;
+#X restore 352 606 pd partialmixer~;
 #N canvas 597 23 513 661 partial~ 0;
 #X obj 39 27 inlet frequency;
 #X obj 241 27 inlet end;
@@ -513,7 +513,7 @@
 #X connect 9 0 7 1;
 #X connect 10 0 7 0;
 #X restore 519 528 pd partial~;
-#N canvas 597 23 513 661 partial~ 0;
+#N canvas 1400 23 513 661 partial~ 1;
 #X obj 39 27 inlet frequency;
 #X obj 241 27 inlet end;
 #X obj 152 27 inlet start;
@@ -634,9 +634,31 @@
 #X msg 747 441 81;
 #X msg 834 441 86;
 #X obj 64 59 unpackOSC;
-#X obj 88 87 rawprint unpacked;
-#X obj 83 140 routeOSC /iceburg/sensor;
-#X obj 1056 237 loadbang;
+#X obj 708 319 loadbang;
+#X obj 72 100 routeOSC /iceburg/sensor /iceburg/proximity;
+#X obj 893 195 *~;
+#X obj 1053 21 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 961 169 line~;
+#X msg 1046 137 0 250;
+#X obj 771 120 f;
+#X obj 809 120 + 1;
+#X obj 772 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 194 135 10 0 0 0 - - -, f 10;
+#X floatatom 767 153 5 0 0 0 - - -, f 5;
+#X text 375 96 Proximity idea: multiply float by 10 \, cast to integer
+\, and count that many times pushing out pulses with the simple synth
+on the right;
+#X text 357 41 TODO: Create the ambient sound;
+#X obj 918 103 *~ 0.2;
+#X obj 876 47 *~ 0.2;
+#X obj 810 55 *~ 0.2;
+#X obj 875 30 osc~ 1400;
+#X obj 920 79 osc~ 1600;
+#X obj 810 32 osc~ 1200;
+#X obj 1067 90 delay 100;
+#X msg 1010 99 1 100;
 #X connect 1 0 34 0;
 #X connect 2 0 4 1;
 #X connect 2 1 4 2;
@@ -658,8 +680,6 @@
 #X connect 2 17 12 2;
 #X connect 2 18 13 1;
 #X connect 2 19 13 2;
-#X connect 3 0 0 0;
-#X connect 3 0 0 1;
 #X connect 4 0 3 0;
 #X connect 5 0 3 1;
 #X connect 6 0 3 2;
@@ -690,17 +710,35 @@
 #X connect 31 0 21 0;
 #X connect 32 0 22 0;
 #X connect 33 0 23 0;
-#X connect 34 0 35 0;
 #X connect 34 0 36 0;
+#X connect 35 0 24 0;
+#X connect 35 0 25 0;
+#X connect 35 0 26 0;
+#X connect 35 0 27 0;
+#X connect 35 0 28 0;
+#X connect 35 0 29 0;
+#X connect 35 0 30 0;
+#X connect 35 0 31 0;
+#X connect 35 0 32 0;
+#X connect 35 0 33 0;
 #X connect 36 0 2 0;
-#X connect 37 0 24 0;
-#X connect 37 0 25 0;
-#X connect 37 0 26 0;
-#X connect 37 0 27 0;
-#X connect 37 0 28 0;
-#X connect 37 0 29 0;
-#X connect 37 0 30 0;
-#X connect 37 0 31 0;
-#X connect 37 0 32 0;
-#X connect 37 0 33 0;
+#X connect 36 1 44 0;
+#X connect 37 0 0 0;
+#X connect 37 0 0 1;
+#X connect 38 0 55 0;
+#X connect 38 0 54 0;
+#X connect 39 0 37 1;
+#X connect 40 0 39 0;
+#X connect 41 0 42 0;
+#X connect 41 0 45 0;
+#X connect 42 0 41 1;
+#X connect 43 0 41 0;
+#X connect 48 0 37 0;
+#X connect 49 0 37 0;
+#X connect 50 0 37 0;
+#X connect 51 0 49 0;
+#X connect 52 0 48 0;
+#X connect 53 0 50 0;
+#X connect 54 0 40 0;
+#X connect 55 0 39 0;
 #X coords 0 0 1 1 85 60 0;
