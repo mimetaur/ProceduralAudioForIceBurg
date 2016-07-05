@@ -1,61 +1,97 @@
-#N canvas 119 23 1131 624 10;
-#X msg 19 153 connect localhost 8000;
-#X msg 81 191 disconnect;
-#X obj 177 305 list prepend send;
-#X obj 175 333 list trim;
-#X obj 146 499 netsend -u -b;
-#X obj 188 270 oscformat;
-#X obj 359 32 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#N canvas 49 23 1224 717 10;
+#X msg 41 364 connect localhost 8000;
+#X msg 135 395 disconnect;
+#X obj 474 388 list prepend send;
+#X obj 472 416 list trim;
+#X obj 277 520 netsend -u -b;
+#X obj 485 353 oscformat;
+#X msg 833 269 set iceburg proximity;
+#X obj 746 374 list prepend send;
+#X obj 744 402 list trim;
+#X obj 757 339 oscformat;
+#X obj 786 148 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 786 174 / 127;
+#X obj 993 375 list prepend send;
+#X obj 991 403 list trim;
+#X obj 1004 340 oscformat;
+#X obj 1033 149 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 1033 175 / 127;
+#X msg 1080 270 set iceburg volume;
+#X msg 589 281 set iceburg sensor;
+#X msg 591 311 format ii;
+#X msg 798 202 format f;
+#X msg 1045 203 format f;
+#X obj 195 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X floatatom 247 137 5 0 9 0 - - -, f 5;
-#X msg 522 203 set iceburg proximity;
-#X obj 435 308 list prepend send;
-#X obj 433 336 list trim;
-#X obj 446 273 oscformat;
-#X obj 475 82 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 10900 1;
-#X obj 475 108 / 127;
-#X obj 682 309 list prepend send;
-#X obj 680 337 list trim;
-#X obj 693 274 oscformat;
-#X obj 722 83 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
-#X obj 722 109 / 127;
-#X msg 769 204 set iceburg volume;
-#X msg 292 198 set iceburg sensor;
-#X msg 294 228 format ii;
-#X obj 234 164 pack f f;
-#X msg 228 82 set \$1;
-#X obj 191 32 hradio 15 1 0 10 empty empty empty 0 -8 0 10 -262144
--1 -1 5;
-#X obj 357 64 trigger b;
-#X msg 487 136 format f;
-#X msg 734 137 format f;
+#X obj 241 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 285 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 331 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 195 201 0 \$1;
+#X msg 240 201 1 \$1;
+#X msg 283 201 2 \$1;
+#X msg 330 201 3 \$1;
+#X obj 379 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 425 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 469 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 515 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 379 201 4 \$1;
+#X msg 424 201 5 \$1;
+#X msg 467 201 6 \$1;
+#X msg 514 201 7 \$1;
+#X obj 558 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 602 143 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 557 201 8 \$1;
+#X msg 600 201 9 \$1;
+#X text 265 124 Reflects the state of which sensors are on/off.;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
 #X connect 5 0 2 0;
-#X connect 6 0 22 1;
-#X connect 6 0 25 0;
-#X connect 7 0 22 0;
-#X connect 8 0 11 0;
-#X connect 9 0 10 0;
-#X connect 10 0 4 0;
+#X connect 6 0 9 0;
+#X connect 7 0 8 0;
+#X connect 8 0 4 0;
+#X connect 9 0 7 0;
+#X connect 10 0 11 0;
 #X connect 11 0 9 0;
 #X connect 12 0 13 0;
-#X connect 13 0 11 0;
-#X connect 14 0 15 0;
-#X connect 15 0 4 0;
+#X connect 13 0 4 0;
+#X connect 14 0 12 0;
+#X connect 15 0 16 0;
 #X connect 16 0 14 0;
-#X connect 17 0 18 0;
-#X connect 18 0 16 0;
-#X connect 19 0 16 0;
-#X connect 20 0 5 0;
-#X connect 21 0 5 0;
-#X connect 22 0 5 0;
-#X connect 23 0 7 0;
-#X connect 24 0 23 0;
-#X connect 25 0 7 0;
-#X connect 26 0 11 0;
-#X connect 27 0 16 0;
+#X connect 17 0 14 0;
+#X connect 18 0 5 0;
+#X connect 19 0 5 0;
+#X connect 20 0 9 0;
+#X connect 21 0 14 0;
+#X connect 22 0 26 0;
+#X connect 23 0 27 0;
+#X connect 24 0 28 0;
+#X connect 25 0 29 0;
+#X connect 26 0 5 0;
+#X connect 27 0 5 0;
+#X connect 28 0 5 0;
+#X connect 29 0 5 0;
+#X connect 30 0 34 0;
+#X connect 31 0 35 0;
+#X connect 32 0 36 0;
+#X connect 33 0 37 0;
+#X connect 34 0 5 0;
+#X connect 35 0 5 0;
+#X connect 36 0 5 0;
+#X connect 37 0 5 0;
+#X connect 38 0 40 0;
+#X connect 39 0 41 0;
+#X connect 40 0 5 0;
+#X connect 41 0 5 0;
