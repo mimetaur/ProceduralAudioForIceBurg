@@ -1,4 +1,4 @@
-#N canvas 32 23 1068 623 10;
+#N canvas 138 234 1214 790 10;
 #X obj 449 574 dac~, f 5;
 #X obj 342 28 netreceive -u -b 8000;
 #X obj 342 59 unpackOSC;
@@ -965,6 +965,8 @@ sounds;
 #X obj 104 216 t b;
 #X obj 588 151 send volumenum;
 #X obj 511 505 receive volumenum;
+#X text 964 656 Concept and Execution by Nathan Koch Dependencies:
+osc zexy;
 #X connect 1 0 2 0;
 #X connect 2 0 5 0;
 #X connect 2 0 6 0;
