@@ -1,48 +1,48 @@
-#N canvas 56 23 942 697 10;
-#X msg 16 257 connect localhost 8000;
-#X msg 110 288 disconnect;
-#X obj 449 281 list prepend send;
-#X obj 447 309 list trim;
-#X obj 253 652 netsend -u -b;
-#X obj 460 246 oscformat;
-#X msg 759 97 set iceburg proximity;
-#X obj 689 231 list prepend send;
-#X obj 687 259 list trim;
-#X obj 700 196 oscformat;
-#X obj 650 523 list prepend send;
-#X obj 648 551 list trim;
-#X obj 661 488 oscformat;
-#X obj 704 318 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+#N canvas 1982 23 1056 733 10;
+#X msg 159 424 connect localhost 8000;
+#X msg 253 455 disconnect;
+#X obj 317 285 list prepend send;
+#X obj 315 313 list trim;
+#X obj 381 581 netsend -u -b;
+#X obj 328 250 oscformat;
+#X msg 627 101 set iceburg proximity;
+#X obj 557 235 list prepend send;
+#X obj 555 263 list trim;
+#X obj 568 200 oscformat;
+#X obj 650 418 list prepend send;
+#X obj 648 446 list trim;
+#X obj 661 383 oscformat;
+#X obj 704 213 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
-#X obj 704 344 / 127;
-#X msg 731 400 set iceburg volume;
-#X msg 564 174 set iceburg sensor;
-#X msg 566 204 format ii;
-#X msg 716 372 format f;
-#X obj 274 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 704 239 / 127;
+#X msg 731 295 set iceburg volume;
+#X msg 432 178 set iceburg sensor;
+#X msg 434 208 format ii;
+#X msg 716 267 format f;
+#X obj 142 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 320 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 188 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 364 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 232 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 410 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 278 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X msg 274 107 0 \$1;
-#X msg 319 107 1 \$1;
-#X msg 362 107 2 \$1;
-#X msg 409 107 3 \$1;
-#X obj 458 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X msg 142 111 0 \$1;
+#X msg 187 111 1 \$1;
+#X msg 230 111 2 \$1;
+#X msg 277 111 3 \$1;
+#X obj 326 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X msg 458 107 4 \$1;
-#X msg 503 107 5 \$1;
-#X text 240 17 Reflects the state of which sensors are on/off.;
-#X msg 550 107 6 \$1;
-#X msg 768 135 format i;
-#X obj 504 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X msg 326 111 4 \$1;
+#X msg 371 111 5 \$1;
+#X text 108 21 Reflects the state of which sensors are on/off.;
+#X msg 418 111 6 \$1;
+#X msg 636 139 format i;
+#X obj 372 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 548 49 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 416 53 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 694 73 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 562 77 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
