@@ -1,4 +1,4 @@
-## Ice Burg API Documentation
+## Ice-Burg API Documentation
 
 ### Core Sound
 
@@ -8,16 +8,16 @@
 
 **PARAMETERS**
 
-`parameter #1: (INT): 0 - 9`: Sensor Number (0 through 9)
+`parameter #1: (INT): 0 - 5`: Sensor Number (0 through 5)
 
-`parameter #2: (INT): 0 - 1`: Sensor Status (off or on)
+`parameter #2: (INT): 0 - 2`: Sensor Status (0 - off, 1, - on, 2 - correspondence)
 
 
 **NOTES**
 
 Assumes 1 when user touches one of sculpture's sensors, 0 when they take their hand away.
 
-1 will initiate sound, 0 will end.
+1 will initiate sound, 0 will end. 2 is a correspondence event that increases the richness of the sound.
 
 ### Proximity Sound
 **ADDRESS**
@@ -26,11 +26,11 @@ Assumes 1 when user touches one of sculpture's sensors, 0 when they take their h
 
 **PARAMETERS**
 
-`parameter #1 (FLOAT): 0 - 1`: Proximity Range
+`parameter #1 (INT): 0 - 1`: Proximity (0 - off, 1 - On)
 
 **NOTES**
 
-Based on user's proximity to the sculpture. No user will register as 0. 1 represents as close as user can be before touching sculpture.
+Proximity is triggered when a user gets close to the sculpture. It increases the intensity of the ambient sound.
 
 ### Overall Volume
 **ADDRESS**

@@ -16,7 +16,7 @@ Each combination of sensors will both add a set of overtones and impose a slight
 When not in active use, the piece will periodically create a low (both in pitch and volume), slowly modulated pulsing sound that would ideally synchronize with slowly pulsing LED’s on the sculpture.
 
 ## Proximity Sound
-When the first participant approaches, the piece will emit a series of midrange chirps/pitch sweeps that happen more frequently as the distance to the sculpture is closed.
+When the sculpture detects movement it will increase the intensity, volume, and interest of the ambient sound.
 
 ## Aesthetics
 These sounds will be derived from a mix of additive synthesis, adding pure sine waves of different frequencies together to create somewhat richer timbres, and frequency modulation to add cold, digital, bell-like qualities to the overall tone. The timbre will change over time, shaped by a mix of low-frequency oscillators and the ‘beating’ quality similar to tuning a guitar that comes from neighboring frequencies (for instance, 440 Hz and 441 Hz).

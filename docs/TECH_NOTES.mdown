@@ -1,0 +1,11 @@
+## Ice-Burg Technical Notes
+
+At it's highest level, the Ice-Burg sound application is running in Pure Data on a Raspberry Pi, controlled via OpenSoundControl.
+
+[Pure Data](https://puredata.info/) is a dataflow programming language popular with artists and composers. I chose Pure Data because it allowed for fairly easy prototyping and iteration of sonic ideas, and I wanted to be able to synthesize new sounds on the fly. It's also extremely portable to other platforms.
+
+[OpenSoundControl](http://opensoundcontrol.org/) (or OSC) is a protocol popular with sound artists, composers, and multimedia artists because of it's speed and flexibility. It's often used to send performance data (like gestures, multitouch, or note sequences) but because of the open-endedness of the format, it can send almost anything.
+
+An OSC message is composed of an address (like `/iceburg/sensor`) and one or more parameters that can be strings, floats, booleans, etc. The limitations of Pure Data require all parameters to be cast to strings or floats, although it can receive ints, booleans, etc via OSC.
+
+Look for OSC implementations for different languages [here](http://opensoundcontrol.org/implementations).
