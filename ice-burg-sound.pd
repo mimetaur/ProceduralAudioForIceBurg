@@ -1,4 +1,4 @@
-#N canvas 514 237 1135 524 10;
+#N canvas 365 478 1434 619 10;
 #X obj 571 475 dac~, f 5;
 #X obj 532 31 netreceive -u -b 8000;
 #X obj 532 62 unpackOSC;
@@ -528,7 +528,7 @@ if not;
 #X connect 1 0 0 1;
 #X connect 4 0 0 0;
 #X restore 558 436 pd volume~;
-#N canvas 341 23 1251 998 ambient~ 1;
+#N canvas 146 23 1251 998 ambient~ 1;
 #X obj 107 221 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 220 553 line~;
@@ -555,7 +555,7 @@ sounds;
 #X obj 636 222 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X text 690 221 more intense proximity tone;
-#X obj 516 90 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+#X obj 512 147 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
 -262144 -1 -1 0 256;
 #N canvas 78 754 449 259 gate 0;
 #X obj 87 26 inlet bang;
@@ -680,7 +680,7 @@ sounds;
 #X restore 946 316 pd intenseoscbank~;
 #X obj 631 667 *~;
 #X obj 455 304 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 1 256;
+-262144 -1 -1 0 256;
 #N canvas 1310 23 552 706 invert 0;
 #X obj 146 26 inlet number;
 #X obj 150 178 outlet inverted;
@@ -693,6 +693,8 @@ sounds;
 #X connect 4 0 1 0;
 #X restore 466 245 pd invert;
 #X obj 381 668 *~;
+#X obj 528 67 loadbang;
+#X msg 522 98 0;
 #X connect 0 0 4 0;
 #X connect 0 0 5 0;
 #X connect 0 0 36 0;
@@ -735,6 +737,8 @@ sounds;
 #X connect 39 0 41 1;
 #X connect 40 0 39 0;
 #X connect 41 0 34 0;
+#X connect 42 0 43 0;
+#X connect 43 0 23 0;
 #X restore 354 319 pd ambient~;
 #X obj 173 53 loadbang;
 #X obj 320 239 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
