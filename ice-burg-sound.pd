@@ -1,4 +1,4 @@
-#N canvas 435 474 1017 506 10;
+#N canvas 228 23 1188 612 10;
 #X obj 464 422 dac~, f 5;
 #X obj 532 31 netreceive -u -b 8000;
 #X obj 532 62 unpackOSC;
@@ -639,26 +639,30 @@ sounds;
 #X connect 26 0 3 0;
 #X connect 27 0 26 1;
 #X restore 354 319 pd ambient~;
-#X obj 173 53 loadbang;
-#X obj 320 239 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 149 26 loadbang;
+#X obj 325 259 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 249 239 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 254 259 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 351 238 stop ambience;
-#X text 157 238 start ambience;
+#X text 356 258 stop ambience;
+#X text 162 258 start ambience;
 #X obj 616 254 send stopambient;
 #X obj 643 228 send startambient;
 #X obj 314 86 receive stopambient;
 #X obj 243 54 receive startambient;
-#X obj 248 175 delay;
-#X msg 248 150 6000;
-#X obj 249 201 t b;
+#X obj 253 195 delay;
+#X msg 253 170 6000;
+#X obj 254 221 t b;
 #X obj 778 154 send volumenum;
 #X obj 508 352 receive volumenum;
 #X obj 532 119 routeOSC /iceburg/proximity /iceburg/sensor /iceburg/volume
 , f 62;
 #X text 566 407 Concept and Execution by Nathan Koch;
 #X text 567 426 Dependencies: creb osc zexy;
+#X obj 155 82 delay 100;
+#X msg 157 116 \; pd dsp 1;
+#X text 19 141 ensure the audio is present;
+#X text 21 155 before turning dsp on;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
 #X connect 2 0 21 0;
@@ -668,7 +672,7 @@ sounds;
 #X connect 5 0 0 0;
 #X connect 5 1 0 1;
 #X connect 6 0 5 0;
-#X connect 7 0 17 0;
+#X connect 7 0 24 0;
 #X connect 8 0 6 1;
 #X connect 9 0 6 0;
 #X connect 14 0 8 0;
@@ -680,4 +684,6 @@ sounds;
 #X connect 21 0 6 2;
 #X connect 21 1 3 0;
 #X connect 21 2 19 0;
+#X connect 24 0 25 0;
+#X connect 25 0 17 0;
 #X coords 0 0 1 1 85 60 0;
