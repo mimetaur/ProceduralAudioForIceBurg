@@ -1,4 +1,4 @@
-#N canvas 75 23 1017 506 10;
+#N canvas 435 474 1017 506 10;
 #X obj 464 422 dac~, f 5;
 #X obj 532 31 netreceive -u -b 8000;
 #X obj 532 62 unpackOSC;
@@ -15,7 +15,7 @@
 #X obj 563 118 outlet partial3;
 #X obj 663 118 outlet partial4;
 #X obj 769 118 outlet partial5;
-#X obj 435 47 route 0 1 2 3 4 5, f 33;
+#X obj 435 47 route 0 1 2 3 4 5, f 38;
 #X connect 0 0 9 0;
 #X connect 9 0 3 0;
 #X connect 9 1 4 0;
@@ -23,7 +23,7 @@
 #X connect 9 3 6 0;
 #X connect 9 4 7 0;
 #X connect 9 5 8 0;
-#X restore 138 122 pd sensormap, f 38;
+#X restore 138 122 pd sensormap;
 #N canvas 145 23 1096 724 partialmixer~ 0;
 #X obj 367 287 outlet~ audio;
 #X obj 144 45 inlet~ partial1;
@@ -542,7 +542,7 @@ version of the logic gate;
 #X connect 1 0 0 1;
 #X connect 4 0 0 0;
 #X restore 451 383 pd volume~;
-#N canvas 332 23 1251 998 ambient~ 1;
+#N canvas 332 23 1251 998 ambient~ 0;
 #X obj 107 221 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 220 553 line~;
@@ -658,7 +658,7 @@ sounds;
 #X obj 532 119 routeOSC /iceburg/proximity /iceburg/sensor /iceburg/volume
 , f 62;
 #X text 566 407 Concept and Execution by Nathan Koch;
-#X text 567 426 Dependencies: osc zexy;
+#X text 567 426 Dependencies: creb osc zexy;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
 #X connect 2 0 21 0;
