@@ -1,5 +1,7 @@
 ## Ice-Burg API Documentation
 
+Note: Connect to the IP address of the Raspberry PI, port 8000 via OSC. 
+
 ### Core Sound
 
 **ADDRESS**
