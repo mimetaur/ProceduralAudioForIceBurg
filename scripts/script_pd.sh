@@ -4,4 +4,4 @@
 # named "ice-burg-sound.pd"
 
 echo "Starting Pd..."
-pd -nogui -noadc /home/pi/Development/ice-burg-sound/ice-burg-sound.pd &
+pd -nogui -noadc -stderr -verbose /home/pi/Development/ice-burg-sound/ice-burg-sound.pd &
