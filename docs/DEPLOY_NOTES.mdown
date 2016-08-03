@@ -1,0 +1,18 @@
+## Ice-Burg Sound Deployment Process
+
+1. Set up the initial Raspberry Pi OS using the [Adafruit Pi Finder Image](https://github.com/adafruit/Adafruit-Pi-Finder)
+2. *sudo apt-get update && sudo-apt-get upgrade*
+3. *sudo apt-get install puredata* (this currently installs PD Vanilla v4.6.1)
+4. Install [deken](https://github.com/pure-data/deken) plugin system for PD
+5. VNC into Raspberry Pi, and start PD
+6. Go to Help | Find Externals and install *osc*, *creb*, and *zexy*
+7. Go to Preferences | Path and add *osc*, *creb*, and *zexy* folders to Path
+8. Go to Preferences | Startup and add "*zexy*" to list of libraries
+9. Close VNC
+10. *cp ./scripts/rc.local /etc/rc.local*
+11. *mkdir ~/bin*
+12. *cp ./scripts/script_pd.sh ~/bin/script_pd.sh*
+13. *sudo reboot*
+14. To test process, plug headphones or speakers in, and test with *./utils/ice-burg-api-tester.pd* on dev machine
+
+**TODO**: Make this process more automated. The dependency on Deken (which is a Gui plugin for PD) currently requires clicking around PD. Look into if there a PD externals manager for the command line.
