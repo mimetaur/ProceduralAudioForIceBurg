@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1980.0, 1039.0 ],
+		"rect" : [ 271.0, 79.0, 1297.0, 851.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -852,7 +852,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 207.446152, 0.535999, 0, -0.5, 2000.0, 0.0, 0, -0.35 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 143.61702, 0.322666, 0, -0.5, 473.404266, 0.135999, 0, -0.25, 2000.0, 0.0, 0, -0.35 ],
 					"domain" : 2000.0,
 					"id" : "obj-58",
 					"maxclass" : "function",
@@ -1190,10 +1190,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 560.0, 78.666748, 100.0, 40.0 ],
+					"patching_rect" : [ 560.0, 78.666748, 52.0, 28.5 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-1", "kslider", "int", 55, 5, "obj-4", "flonum", "float", 55.0, 5, "obj-6", "flonum", "float", 195.997711, 5, "obj-45", "toggle", "int", 0, 4, "obj-38", "function", "clear", 8, "obj-38", "function", "add_with_curve", 0.0, 0.0, 0, 0.25, 8, "obj-38", "function", "add_with_curve", 172.734039, 0.975999, 0, -0.3, 5, "obj-38", "function", "domain", 1000.0, 6, "obj-38", "function", "range", 0.0, 1.0, 5, "obj-38", "function", "mode", 1, 4, "obj-34", "function", "clear", 8, "obj-34", "function", "add_with_curve", 0.0, 1.0, 0, -0.25, 8, "obj-34", "function", "add_with_curve", 856.737488, 0.0, 0, -0.45, 5, "obj-34", "function", "domain", 1000.0, 6, "obj-34", "function", "range", 0.0, 1.0, 5, "obj-34", "function", "mode", 1, 28, "obj-28", "multislider", "list", 1.0, 1.0, 0.678161, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-23", "multislider", "list", 0.333333, 0.494253, 0.0, 0.0, 0.0, -0.241379, 0.0, 0.0, 0.195402, 0.0, 0.0, 0.0, 0.0, 0.0, -0.517241, 0.0, 0.0, 0.0, 0.54023, 0.0, 0.0, 0.0, 0.0, 0.0, 6, "obj-13", "gain~", "list", 95, 10.0, 4, "obj-58", "function", "clear", 8, "obj-58", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-58", "function", "add_with_curve", 207.446152, 0.535999, 0, -0.5, 8, "obj-58", "function", "add_with_curve", 2000.0, 0.0, 0, -0.35, 5, "obj-58", "function", "domain", 2000.0, 6, "obj-58", "function", "range", 0.0, 1.0, 5, "obj-58", "function", "mode", 1 ]
+							"data" : [ 5, "obj-1", "kslider", "int", 62, 5, "obj-4", "flonum", "float", 62.0, 5, "obj-6", "flonum", "float", 293.664764, 5, "obj-45", "toggle", "int", 0, 4, "obj-38", "function", "clear", 8, "obj-38", "function", "add_with_curve", 0.0, 0.0, 0, 0.25, 8, "obj-38", "function", "add_with_curve", 172.734039, 0.975999, 0, -0.3, 5, "obj-38", "function", "domain", 1000.0, 6, "obj-38", "function", "range", 0.0, 1.0, 5, "obj-38", "function", "mode", 1, 4, "obj-34", "function", "clear", 8, "obj-34", "function", "add_with_curve", 0.0, 1.0, 0, -0.25, 8, "obj-34", "function", "add_with_curve", 856.737488, 0.0, 0, -0.45, 5, "obj-34", "function", "domain", 1000.0, 6, "obj-34", "function", "range", 0.0, 1.0, 5, "obj-34", "function", "mode", 1, 28, "obj-28", "multislider", "list", 1.0, 1.0, 0.678161, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-23", "multislider", "list", 0.333333, 0.494253, 0.0, 0.0, 0.0, -0.241379, 0.0, 0.0, 0.195402, 0.0, 0.0, 0.0, 0.0, 0.0, -0.517241, 0.0, 0.0, 0.0, 0.54023, 0.0, 0.0, 0.0, 0.0, 0.0, 6, "obj-13", "gain~", "list", 95, 10.0, 4, "obj-58", "function", "clear", 8, "obj-58", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-58", "function", "add_with_curve", 143.61702, 0.322666, 0, -0.5, 8, "obj-58", "function", "add_with_curve", 473.404266, 0.135999, 0, -0.25, 8, "obj-58", "function", "add_with_curve", 2000.0, 0.0, 0, -0.35, 5, "obj-58", "function", "domain", 2000.0, 6, "obj-58", "function", "range", 0.0, 1.0, 5, "obj-58", "function", "mode", 1 ]
 						}
 , 						{
 							"number" : 2,
