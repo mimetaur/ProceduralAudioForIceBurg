@@ -43,8 +43,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 235.100037, 299.0, 131.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 235.100037, 299.0, 139.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "poly~ additiveVoice~ 6"
 				}
 
@@ -56,8 +56,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 201.300034, 166.0, 33.0 ],
-					"style" : "",
+					"patching_rect" : [ 460.333344, 204.500031, 172.0, 39.0 ],
+					"style" : "AvenirNext",
 					"text" : "forward preset choice on to synth"
 				}
 
@@ -65,12 +65,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 156.0, 166.0, 33.0 ],
-					"style" : "",
+					"patching_rect" : [ 465.666656, 173.333328, 173.0, 23.0 ],
+					"style" : "AvenirNext",
 					"text" : "load preset 1 on load of patch"
 				}
 
@@ -82,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 318.600037, 118.700012, 35.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 318.600037, 118.700012, 37.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "* 0.8"
 				}
 
@@ -95,8 +94,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 292.000031, 183.300034, 69.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 292.000031, 183.300034, 72.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "delay 4000"
 				}
 
@@ -108,8 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 222.600037, 118.700012, 71.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 222.600037, 118.700012, 75.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "metro 6000"
 				}
 
@@ -122,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 246.100037, 219.500031, 24.0, 24.0 ],
-					"style" : ""
+					"style" : "AvenirNext"
 				}
 
 			}
@@ -134,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 300.100037, 219.500031, 24.0, 24.0 ],
-					"style" : ""
+					"style" : "AvenirNext"
 				}
 
 			}
@@ -144,8 +143,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.000038, 122.400017, 76.400002, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 76.000038, 122.400017, 81.0, 23.0 ],
+					"style" : "AvenirNext",
 					"text" : "midi number"
 				}
 
@@ -159,51 +158,45 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.000038, 122.400017, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 16.000038, 122.400017, 49.0, 25.0 ],
+					"style" : "AvenirNext"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.600082, 477.600006, 33.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 138.600082, 477.600006, 36.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "stop"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-40",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.600082, 424.600006, 74.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 138.600082, 424.600006, 78.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "startwindow"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.100037, 545.599976, 37.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 228.100037, 545.599976, 40.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "dac~"
 				}
 
@@ -219,7 +212,7 @@
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 235.100037, 383.600006, 35.0, 95.0 ],
-					"style" : ""
+					"style" : "AvenirNext"
 				}
 
 			}
@@ -233,7 +226,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.000038, 69.999992, 196.0, 34.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 336.0, 53.0 ],
-					"style" : ""
+					"style" : "AvenirNext"
 				}
 
 			}
@@ -244,8 +237,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 69.999992, 166.0, 74.0 ],
-					"style" : "",
+					"patching_rect" : [ 471.0, 69.999992, 175.0, 88.0 ],
+					"style" : "AvenirNext",
 					"text" : "TODO: implement correspondence event. it should bang noteon and do something else. Maybe a richer attack."
 				}
 
@@ -257,8 +250,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 7.599996, 166.0, 47.0 ],
-					"style" : "",
+					"patching_rect" : [ 471.0, 7.599996, 172.0, 56.0 ],
+					"style" : "AvenirNext",
 					"text" : "TODO - think about how this plays out over 6 voices - poly~?"
 				}
 
@@ -271,8 +264,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.100037, 48.066792, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 287.100037, 48.066792, 52.0, 25.0 ],
+					"style" : "AvenirNext"
 				}
 
 			}
@@ -285,19 +278,20 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 222.600037, 79.999992, 24.0, 24.0 ],
-					"style" : ""
+					"style" : "AvenirNext"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.400024, 151.599991, 72.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 386.400024, 151.599991, 76.0, 25.0 ],
+					"style" : "AvenirNext",
 					"text" : "loadmess 1"
 				}
 
@@ -319,7 +313,7 @@
 							"data" : [ 5, "obj-44", "toggle", "int", 1, 5, "obj-60", "number", "int", 5000, 5, "obj-3", "kslider", "int", 53, 6, "obj-13", "gain~", "list", 112, 10.0, 5, "obj-9", "number", "int", 53 ]
 						}
  ],
-					"style" : ""
+					"style" : "AvenirNext"
 				}
 
 			}
@@ -506,7 +500,17 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AvenirNext",
+				"default" : 				{
+					"fontname" : [ "Avenir Next Regular" ]
+				}
+,
+				"parentstyle" : "default",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
