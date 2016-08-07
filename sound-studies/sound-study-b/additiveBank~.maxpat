@@ -38,6 +38,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 910.100098, 358.0, 198.0, 33.0 ],
+					"style" : "",
+					"text" : "TODO: needs to change harmonics over time to stay interesting"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 910.100098, 282.133209, 198.0, 47.0 ],
+					"style" : "",
+					"text" : "TODO:  needs some kind of brighter attack to reward users for initial touch-on"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 910.100098, 203.933197, 198.0, 60.0 ],
+					"style" : "",
+					"text" : "TODO: implement correspondence event. it should bang noteon and do something else. Maybe a richer attack."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
