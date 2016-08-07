@@ -2,17 +2,18 @@
 
 Note: Connect to the IP address of the Raspberry PI, port 8000 via OSC.
 
-### Core Functionality - Local Facets
+### Core Sound
 
 **ADDRESS**
 
-`/iceburg/local/facet/status`
+`/iceburg/sensor`
 
 **PARAMETERS**
 
-`parameter #1: (INT): 0 - 5`: Facet Number (0 through 5)
+`parameter #1: (INT): 0 - 5`: Sensor Number (0 through 5)
 
-`parameter #2: (INT): 0 - 2`: Facet Status (0 - off, 1, - on, 2 - correspondence)
+`parameter #2: (INT): 0 - 2`: Sensor Status (0 - off, 1, - on, 2 - correspondence)
+
 
 **NOTES**
 
@@ -20,25 +21,10 @@ Assumes 1 when user touches one of sculpture's sensors, 0 when they take their h
 
 1 will initiate sound, 0 will end. 2 is a correspondence event that increases the richness of the sound.
 
-### Core Functionality - Total Facets
-
+### Proximity Sound
 **ADDRESS**
 
-`/iceburg/global/facet/active`
-
-**PARAMETERS**
-
-`parameter #1: (INT): 0 - 11`: Total Number of active facets across both sculptures
-
-**NOTES**
-
-The total number of active facets affects the overall richeness of the sound, as well as giving a hook for when no users are using the machine (e.g. switch back to ambient mode).
-
-
-### Proximity
-**ADDRESS**
-
-`/iceburg/local/proximity`
+`/iceburg/proximity`
 
 **PARAMETERS**
 
@@ -48,10 +34,10 @@ The total number of active facets affects the overall richeness of the sound, as
 
 Proximity is triggered when a user gets close to the sculpture. As it increases (in a range from 0 to 1) it increases the intensity of the sound.
 
-### Volume
+### Overall Volume
 **ADDRESS**
 
-`/iceburg/local/volume`
+`/iceburg/volume`
 
 **PARAMETERS**
 
