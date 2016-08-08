@@ -38,6 +38,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 567.0, 372.0, 165.0, 60.0 ],
+					"style" : "",
+					"text" : "TODO: Refine synth - give it a nice long attack and decay stage - make it a good thin pad machine"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 567.0, 288.0, 150.0, 74.0 ],
+					"style" : "",
+					"text" : "TODO: Create a sequence that rolls through the whole tone scale randomly, playing notes for random lengths,"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 567.0, 226.0, 150.0, 47.0 ],
+					"style" : "",
+					"text" : "TODO: Wrap a tri~ in poly~ and make a super simple polyphonic synth"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
