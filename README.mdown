@@ -13,8 +13,8 @@ The artist’s goals for this piece are threefold:
 
 
 ## Sound Design
-### Core Sound
-The core sound of the piece (once activated by sensors) will be a drone derived from the harmonic series. As more users fit their hands to the sensors, more and more overtones will be added to create a harmonically rich drone.
+### Facet Sound
+The core sound of the piece (once activated by the sculpture's facets) will be a drone derived from the harmonic series. As more users fit their hands to the sensors, more and more overtones will be added to create a harmonically rich drone.
 
 Each combination of sensors will both add a set of overtones and impose a slight rhythmic pulse to the sound.  As every combination is different, it will encourage additional participants to join in (or change their hand locations) and shape the sound over time.
 
