@@ -1072,7 +1072,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 159.583282, 1064.0, 90.0, 22.0 ],
+					"patching_rect" : [ 81.583275, 1063.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2317,7 +2317,7 @@
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 72.5, 1050.0, 169.083282, 1050.0 ],
+					"midpoints" : [ 72.5, 1050.0, 91.083275, 1050.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -2557,7 +2557,7 @@
 					"destination" : [ "obj-60", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 759.383301, 1044.0, 240.083282, 1044.0 ],
+					"midpoints" : [ 759.383301, 1044.0, 162.083282, 1044.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -2674,7 +2674,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.083282, 1173.0, 239.5, 1173.0 ],
+					"midpoints" : [ 91.083275, 1173.0, 239.5, 1173.0 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -2684,7 +2684,7 @@
 					"destination" : [ "obj-89", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.083282, 1110.0, 262.749939, 1110.0 ],
+					"midpoints" : [ 91.083275, 1110.0, 262.749939, 1110.0 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -2694,7 +2694,7 @@
 					"destination" : [ "obj-60", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.083282, 1050.0, 204.583282, 1050.0 ],
+					"midpoints" : [ 169.083282, 1050.0, 126.583275, 1050.0 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
