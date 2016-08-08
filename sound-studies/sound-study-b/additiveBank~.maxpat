@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 887.0, 79.0, 1639.0, 1327.0 ],
+		"rect" : [ 1314.0, 79.0, 1212.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 186.0, 1106.0, 150.0, 47.0 ],
+					"style" : "",
+					"text" : "up to 6 partials play at once, want to reduce volume below clipping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 90.0, 1112.0, 76.0, 22.0 ],
+					"style" : "",
+					"text" : "*~ 0.166666"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 910.100098, 358.0, 198.0, 33.0 ],
+					"patching_rect" : [ 910.100098, 358.0, 200.0, 33.0 ],
 					"style" : "",
 					"text" : "TODO: needs to change harmonics over time to stay interesting"
 				}
@@ -953,7 +979,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1397.400024, 23.200001, 81.0, 22.0 ],
+					"patching_rect" : [ 693.400024, 27.200001, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "r preset_num"
 				}
@@ -966,7 +992,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1502.199951, 23.200001, 72.0, 22.0 ],
+					"patching_rect" : [ 798.199951, 27.200001, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -1031,7 +1057,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 1452.366699, 79.533325, 54.666664, 28.333334 ],
+					"patching_rect" : [ 748.366699, 83.533325, 54.666664, 28.333334 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 4, "obj-38", "function", "clear", 8, "obj-38", "function", "add_with_curve", 0.0, 0.0, 0, 0.25, 8, "obj-38", "function", "add_with_curve", 172.734039, 0.975999, 0, -0.3, 5, "obj-38", "function", "domain", 1000.0, 6, "obj-38", "function", "range", 0.0, 1.0, 5, "obj-38", "function", "mode", 1, 4, "obj-34", "function", "clear", 8, "obj-34", "function", "add_with_curve", 0.0, 1.0, 0, -0.25, 8, "obj-34", "function", "add_with_curve", 856.737488, 0.0, 0, -0.45, 5, "obj-34", "function", "domain", 1000.0, 6, "obj-34", "function", "range", 0.0, 1.0, 5, "obj-34", "function", "mode", 1, 28, "<invalid>", "multislider", "list", 1.0, 1.0, 0.78, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "<invalid>", "multislider", "list", 0.32, 0.46, 0.0, 0.0, -0.24, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, -0.54, 0.0, 0.0, 0.0, 0.0, 0.46, 0.0, 0.0, 0.0, 0.0, 0.0, 4, "<invalid>", "function", "clear", 8, "<invalid>", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "<invalid>", "function", "add_with_curve", 143.61702, 0.322666, 0, -0.5, 8, "<invalid>", "function", "add_with_curve", 473.404266, 0.135999, 0, -0.25, 8, "<invalid>", "function", "add_with_curve", 2000.0, 0.0, 0, -0.35, 5, "<invalid>", "function", "domain", 2000.0, 6, "<invalid>", "function", "range", 0.0, 1.0, 5, "<invalid>", "function", "mode", 1 ]
@@ -1122,6 +1148,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1149,7 +1184,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
