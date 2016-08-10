@@ -193,12 +193,12 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 131.0, 478.0, 45.0, 22.0 ],
+					"patching_rect" : [ 131.0, 478.0, 40.0, 22.0 ],
 					"style" : "",
-					"text" : "cycle~"
+					"text" : "tri~"
 				}
 
 			}
@@ -218,7 +218,7 @@
 , 			{
 				"box" : 				{
 					"addpoints_with_curve" : [ 21.276596, 0.0, 0, 0.0, 1723.404297, 1.0, 0, -0.6 ],
-					"domain" : 2500.0,
+					"domain" : 2000.0,
 					"id" : "obj-11",
 					"maxclass" : "function",
 					"mode" : 1,
@@ -233,8 +233,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 2500.0, 0.0, 0, -0.3 ],
-					"domain" : 2500.0,
+					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 1946.808472, 0.0, 0, -0.15, 2500.0, 0.0, 0, -0.3 ],
+					"domain" : 2000.0,
 					"id" : "obj-10",
 					"maxclass" : "function",
 					"mode" : 1,
@@ -306,6 +306,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 865.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -319,6 +323,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 19.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
