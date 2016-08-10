@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 79.0, 1212.0, 1039.0 ],
+		"rect" : [ 38.0, 79.0, 638.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 433.0, 288.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "midinote 57 0"
+					"text" : "midinote 48 0"
 				}
 
 			}
@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 255.0, 324.0, 156.0, 22.0 ],
+					"patching_rect" : [ 255.0, 324.0, 149.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ ambienceVoiceA~ 24"
+					"text" : "poly~ ambienceVoiceA~ 4"
 				}
 
 			}
@@ -146,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 304.0, 414.0, 22.0, 140.0 ],
+					"patching_rect" : [ 303.5, 408.0, 22.0, 140.0 ],
 					"style" : ""
 				}
 
