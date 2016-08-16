@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 135.0, 79.0, 1518.0, 1015.0 ],
+		"rect" : [ 38.0, 79.0, 1040.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"items" : [ "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "G#", ",", "A", ",", "A#", ",", "B" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 514.0, 135.599991, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-97",
 					"items" : [ "Chromatic", ",", "Major", ",", "Neapolitan", "Major", ",", "Enigmatic", ",", "Composite", "II", ",", "Locrian", "(Nat", "7)", ",", "Kumoi", ",", "Hirojoshi", ",", "Whole", "Tone", ",", "Whole", "Half", "Diminished", ",", "Dominant", "Sus", ",", "Bebop", "Locrian", ",", "Bebop", "Dorian" ],
@@ -96,8 +110,8 @@
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 310.383209, 170.666672, 127.0, 22.0 ],
 					"style" : "",
 					"text" : "tonal_pitch_generator"
@@ -898,7 +912,7 @@
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 6, "obj-13", "gain~", "list", 111, 10.0, 5, "obj-1", "radiogroup", "int", 0, 5, "obj-8", "radiogroup", "int", 0, 5, "obj-9", "radiogroup", "int", 0, 5, "obj-11", "radiogroup", "int", 0, 5, "obj-14", "radiogroup", "int", 0, 5, "obj-15", "radiogroup", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-87", "number", "int", 5000, 28, "obj-28", "multislider", "list", 0.4, 0.18, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-23", "multislider", "list", 0.42, 0.18, 0.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-65", "multislider", "list", -0.1, -0.22, -0.24, -0.24, 0.24, 0.74, 0.76, 0.66, -0.22, -0.22, -0.2, 0.16, 0.02, 0.46, 0.06, 0.62, 0.76, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-61", "multislider", "list", 0.56, 0.44, 0.14, -0.16, 0.02, -0.5, -0.66, -0.02, -0.64, -0.22, 0.0, 0.22, 0.22, -0.1, -0.12, -0.12, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-73", "multislider", "list", 0.3, 0.26, 0.14, 0.01, -0.12, -0.34, 0.0, -0.64, -0.71, 0.0, 0.08, 0.08, -1.0, -1.0, 0.0, -0.36, 0.1, 0.18, 0.18, 0.18, 0.24, 0.34, 0.5, 0.0, 28, "obj-69", "multislider", "list", 0.0, 0.0, 0.0, 0.12, -0.12, -0.36, -0.6, 0.06, -0.04, -0.04, -0.02, -0.04, -0.1, -0.1, -0.08, -0.02, -0.38, 0.24, -0.38, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-121", "multislider", "list", 0.0, 0.5, 0.9, 0.06, 0.08, 0.54, 0.4, 0.21, 0.02, -0.18, -0.38, 0.0, 0.0, -0.08, -0.12, -0.52, -0.44, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-35", "multislider", "list", 0.12, -0.28, -0.44, -0.06, -0.48, -0.22, -0.22, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-43", "number", "int", 4, 5, "<invalid>", "umenu", "int", 7, 11, "obj-172", "itable", "set", 0, 0, 0, 0, 0, 0, 0, 5, "obj-269", "number", "int", 0 ]
+							"data" : [ 6, "obj-13", "gain~", "list", 111, 10.0, 5, "obj-1", "radiogroup", "int", 0, 5, "obj-8", "radiogroup", "int", 0, 5, "obj-9", "radiogroup", "int", 0, 5, "obj-11", "radiogroup", "int", 0, 5, "obj-14", "radiogroup", "int", 0, 5, "obj-15", "radiogroup", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-87", "number", "int", 5000, 28, "obj-28", "multislider", "list", 0.4, 0.18, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-23", "multislider", "list", 0.42, 0.18, 0.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-65", "multislider", "list", -0.1, -0.22, -0.24, -0.24, 0.24, 0.74, 0.76, 0.66, -0.22, -0.22, -0.2, 0.16, 0.02, 0.46, 0.06, 0.62, 0.76, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-61", "multislider", "list", 0.56, 0.44, 0.14, -0.16, 0.02, -0.5, -0.66, -0.02, -0.64, -0.22, 0.0, 0.22, 0.22, -0.1, -0.12, -0.12, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-73", "multislider", "list", 0.3, 0.26, 0.14, 0.01, -0.12, -0.34, 0.0, -0.64, -0.71, 0.0, 0.08, 0.08, -1.0, -1.0, 0.0, -0.36, 0.1, 0.18, 0.18, 0.18, 0.24, 0.34, 0.5, 0.0, 28, "obj-69", "multislider", "list", 0.0, 0.0, 0.0, 0.12, -0.12, -0.36, -0.6, 0.06, -0.04, -0.04, -0.02, -0.04, -0.1, -0.1, -0.08, -0.02, -0.38, 0.24, -0.38, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-121", "multislider", "list", 0.0, 0.5, 0.9, 0.06, 0.08, 0.54, 0.4, 0.21, 0.02, -0.18, -0.38, 0.0, 0.0, -0.08, -0.12, -0.52, -0.44, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-35", "multislider", "list", 0.12, -0.28, -0.44, -0.06, -0.48, -0.22, -0.22, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-43", "number", "int", 6, 11, "obj-172", "itable", "set", 0, 0, 0, 0, 0, 0, 0, 5, "obj-269", "number", "int", 46, 5, "obj-78", "number", "int", 3, 5, "obj-97", "umenu", "int", 8, 5, "obj-25", "umenu", "int", 0 ]
 						}
  ],
 					"style" : ""
@@ -3050,7 +3064,7 @@
 					"destination" : [ "obj-269", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-77", 0 ]
+					"source" : [ "obj-77", 2 ]
 				}
 
 			}
@@ -3059,7 +3073,7 @@
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-77", 0 ]
+					"source" : [ "obj-77", 2 ]
 				}
 
 			}
@@ -3359,6 +3373,18 @@
 				"name" : "scales.txt",
 				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.listloop.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Virtual Sound Macros/externals/list processors",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.urn-jb.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Virtual Sound Macros/externals/random generators",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
