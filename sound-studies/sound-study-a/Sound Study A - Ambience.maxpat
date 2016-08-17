@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 324.0, 79.0, 1347.0, 1037.0 ],
+		"rect" : [ -95.0, 79.0, 1347.0, 1037.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,149 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 5,
+					"id" : "obj-21",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 623.0, 481.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1034.0, 365.400024, 154.0, 22.0 ],
+					"style" : "",
+					"text" : "vs.buf.gen10 table_w2 512"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1034.0, 195.400085, 33.0, 22.0 ],
+					"style" : "",
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
+					"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
+					"candicane4" : [ 0.439216, 0.619608, 0.070588, 1.0 ],
+					"candicane5" : [ 0.584314, 0.827451, 0.431373, 1.0 ],
+					"candicane6" : [ 0.733333, 0.035294, 0.788235, 1.0 ],
+					"candicane7" : [ 0.878431, 0.243137, 0.145098, 1.0 ],
+					"candicane8" : [ 0.027451, 0.447059, 0.501961, 1.0 ],
+					"id" : "obj-8",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1034.0, 246.599976, 239.0, 100.0 ],
+					"setstyle" : 1,
+					"signed" : 1,
+					"size" : 24,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1076.0, 195.400085, 102.0, 20.0 ],
+					"style" : "",
+					"text" : "zero the partials"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 762.0, 365.400024, 154.0, 22.0 ],
+					"style" : "",
+					"text" : "vs.buf.gen10 table_w1 512"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 762.0, 195.400085, 33.0, 22.0 ],
+					"style" : "",
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
+					"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
+					"candicane4" : [ 0.439216, 0.619608, 0.070588, 1.0 ],
+					"candicane5" : [ 0.584314, 0.827451, 0.431373, 1.0 ],
+					"candicane6" : [ 0.733333, 0.035294, 0.788235, 1.0 ],
+					"candicane7" : [ 0.878431, 0.243137, 0.145098, 1.0 ],
+					"candicane8" : [ 0.027451, 0.447059, 0.501961, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 762.0, 246.599976, 239.0, 100.0 ],
+					"setstyle" : 1,
+					"signed" : 1,
+					"size" : 24,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 804.0, 195.400085, 102.0, 20.0 ],
+					"style" : "",
+					"text" : "zero the partials"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 526.450012, 399.0, 50.0, 22.0 ],
+					"patching_rect" : [ 498.950012, 436.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -297,7 +433,7 @@
 					"patching_rect" : [ 132.0, 60.0, 52.0, 29.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 6, "obj-13", "gain~", "list", 122, 10.0, 4, "obj-48", "kslider", "chord", 28, "<invalid>", "multislider", "list", 0.0, 0.3, 0.0, -0.12, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-41", "toggle", "int", 0, 5, "obj-45", "number", "int", 4000, 5, "<invalid>", "number", "int", 3975, 5, "obj-96", "number", "int", 4, 5, "obj-116", "number", "int", 4, 5, "<invalid>", "number", "int", 5, 5, "<invalid>", "number", "int", 5, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "number", "int", 1250, 5, "<invalid>", "number", "int", 400, 5, "<invalid>", "toggle", "int", 0, 5, "obj-97", "umenu", "int", 10, 5, "<invalid>", "number", "int", 70, 5, "<invalid>", "number", "int", 70, 5, "<invalid>", "number", "int", 65, 5, "obj-25", "umenu", "int", 0 ]
+							"data" : [ 6, "obj-13", "gain~", "list", 105, 10.0, 4, "obj-48", "kslider", "chord", 5, "obj-41", "toggle", "int", 0, 5, "obj-45", "number", "int", 8000, 5, "obj-96", "number", "int", 4, 5, "obj-116", "number", "int", 4, 5, "obj-97", "umenu", "int", 3, 5, "obj-25", "umenu", "int", 2, 5, "obj-22", "number", "int", 4500, 28, "obj-10", "multislider", "list", 0.54, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.16, -0.02, -0.04, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-8", "multislider", "list", 0.54, 0.18, 0.16, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-21", "number", "int", 56 ]
 						}
  ],
 					"style" : ""
@@ -372,6 +508,16 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 771.5, 349.0, 771.5, 349.0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-94", 1 ],
 					"disabled" : 0,
@@ -553,10 +699,49 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1043.5, 220.0, 1043.5, 220.0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 771.5, 220.0, 771.5, 220.0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1043.5, 349.0, 1043.5, 349.0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-94", 1 ]
 				}
 
 			}
@@ -595,12 +780,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "simpleFM~.maxpat",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "tonal_pitch_generator.maxpat",
 				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
 				"type" : "JSON",
@@ -624,6 +803,18 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "vs.buf.gen10.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Virtual Sound Macros/externals/ugen macros",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.gen10.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Virtual Sound Macros/externals/ugen macros",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -633,6 +824,25 @@
 				}
 ,
 				"parentstyle" : "default",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjYellow-1",
+				"default" : 				{
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "numberGold-1",
+				"default" : 				{
+					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+				}
+,
+				"parentstyle" : "",
 				"multi" : 0
 			}
  ],
