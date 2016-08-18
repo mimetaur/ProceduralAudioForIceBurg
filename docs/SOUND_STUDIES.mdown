@@ -1,0 +1,7 @@
+# Ice-Burg
+### Sound Studies
+
+These sound studies include:
+1. The ambient (aka default) sound
+2. The proximity sound that intensifies the ambient sound
+3. The facet activation sound
