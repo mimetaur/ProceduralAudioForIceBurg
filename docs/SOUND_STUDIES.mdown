@@ -1,0 +1,53 @@
+# Ice-Burg
+### Sound Studies
+
+## FAQs
+
+#### What is the purpose of these studies?
+By creating "prototypes" of the sounds in advance, I hope to give the team an early look at the final process, while I'm still working in a richer, higher-fidelity tool where sounds can be more easily tweaked graphically. I built these studies in Max/MSP, Pure Data's big brother.
+
+#### Will the production version sound different than these?
+The biggest limitations will be due to the limitations of the Raspberry Pi itself. I expect a slightly higher signal to noise ratio, more limited dynamic range (soft vs loud), and of course less computational power. There is a level of finesse that may be missing in production, but my goal is 90% of the fidelity found here.
+
+#### Why is everything in E?
+E2 is 82.407 Hz, which is the lowest note found in these studies. We may find in production that E2 feels muddy, and we can set a new bottom note accordingly.
+
+#### Are there elements of this we can change in or closer to production?
+Yes, I plan on putting the timing (like how often the ambient sound triggers, and how long it plays), the amplitude (the volume of different sounds), and the harmony (which scales are played) in settings files so we can alter them on the fly over SSH on the Raspberry Pis.
+
+## Ambient Sound
+[Ice-Burg Sound Study - Ambient Sound (in E Neapolitan Major)](https://clyp.it/3cxbvcp3)
+
+The ambient sound is made up of two chord fragments that play once every 10 to 20 seconds. I looked originally at pure, constant, ambient tones but my fear is that in locations like a student center that might make employees or studying students crazy - or blend completely into the background. These chord fragments give a sense of tonality but it's vague: musical but not like someone playing the piano.
+
+This version uses Neapolitan Major, which is just the slightest uplifting, but I also rendered a version in Enigmatic, which is comes off sounding a little more mysterious. (I like both of them, but would lean toward Neapolitan Major as I think it is a little bit easier to listen to over long periods.)
+[Ice-Burg Sound Study - Ambient Sound (in E Enigmatic)](https://clyp.it/qqfkvaw2)
+
+## Proximity Sound
+[Ice-Burg Sound Study - Examples of Proximity Affecting Ambient Sound](https://clyp.it/14i1hz3d)
+
+Proximity triggers both volume and harmonic complexity to the ambient sound. You'll hear that it can apply to sounds that are currently playing (in which case it fades in) and to future notes that plays. I'm expecting a lot of proximity on and off events so I tried to create a smooth segue.
+
+## Facet sounds
+[Ice-Burg Sound Study - Facet Interaction Sounds Version A (in E Neapolitan Major)](https://clyp.it/clcqbibw)
+
+`0:00` - Facet studies begin by simulating a "touch on" and "touch off" event on each facet one after another.
+`0:35` - Sequence then plays again using the correspondence sound.
+`1:10` - Simulates a group of people each adding their hands to a facet, one by one.
+`1:45` - Simulates a series of correspondence events, one by one.
+_(Times are approximate)_
+
+The concept behind the facet sound is that each facet adds an additional harmonic or group of harmonics to a drone, so that it gets richer and louder as more people add their hands.
+
+If everyone takes their hands off the sculpture, it will increment the note and the next time someone touches the sculpture, it will play the next note in the scale. This adds a little musical interest to a common situation (someone putting one hand on and taking it off) without allowing users to play it like a musical instrument.
+
+As the facets stack up you'll hear that the sheer intensity of harmonics begin to drown out the fundamental "note" underneath it.
+
+Random interactions simulated here:
+[Ice-Burg Sound Study - Random Facet Interactions Version A (in E Neapolitan Major)](https://clyp.it/tfh33rgf)
+
+Version A (played above) compromises a little bit on the original concept by using more ear-pleasing combinations of harmonics. This is a version that is more true to the original concept, but to my ears it gets a little shrill with the higher harmonics:
+[Ice-Burg Sound Study - Facet Interaction Sounds Version B (in E Neapolitan Major)](https://clyp.it/nyfey1lj)
+
+And here is an example of the facet sound in E Enigmatic. I think just about any scale can work for the facet sounds because the musical element gets buried under the sound design. However I recommend we use the same scale for both to avoid clashes as the sculpture transitions from "ambient mode" to "facet interaction mode".
+[Ice-Burg Sound Study - Facet Interaction Sounds Version A (in E Enigmatic)](https://clyp.it/ns4st3nm)
