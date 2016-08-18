@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 757.0, 79.0, 1257.0, 1031.0 ],
+		"rect" : [ 757.0, 79.0, 944.0, 1031.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2629,7 +2629,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.25, 511.259033, 0.48, 0, -0.35, 1000.0, 1.0, 0, 0.4 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.25, 5921.098633, 0.535109, 0, -0.5, 10000.0, 1.0, 0, 0.4 ],
+					"domain" : 10000.0,
 					"id" : "obj-38",
 					"maxclass" : "function",
 					"mode" : 1,
