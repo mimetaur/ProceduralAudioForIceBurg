@@ -32,6 +32,6 @@ These sounds will be derived from a mix of additive synthesis, adding pure sine 
 ## About this repository
 `/docs`: API documentation and tech notes
 
-`sound-studies`: Aesthetic experiments in Max/MSP 7
+`/sound-studies`: Aesthetic experiments in Max/MSP 7
 
-`utils`: custom utilities in Pure Data
+`/utils`: custom utilities in Pure Data
