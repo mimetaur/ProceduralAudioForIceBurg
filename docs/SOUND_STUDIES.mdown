@@ -1,5 +1,4 @@
 ## Ice-Burg Sound Studies
 
-```html
-  <h1>HTML in github docs!</h1>
-```
+<br>
+<h1>HTML in github docs!</h1>
