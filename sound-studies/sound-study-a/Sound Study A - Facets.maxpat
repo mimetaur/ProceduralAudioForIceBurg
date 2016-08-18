@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 37.0, 79.0, 1353.0, 951.0 ],
+		"rect" : [ 34.0, 79.0, 956.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -164,7 +164,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.266693, 229.268921, 89.733315, 22.0 ],
 					"style" : "",
-					"text" : "103.826172"
+					"text" : "82.406891"
 				}
 
 			}
@@ -1573,7 +1573,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-124",
