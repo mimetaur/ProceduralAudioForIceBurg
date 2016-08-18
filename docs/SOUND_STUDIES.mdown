@@ -10,7 +10,7 @@ By creating "prototypes" of the sounds in advance, I hope to give the team an ea
 The biggest limitations will be due to the limitations of the Raspberry Pi itself. I expect a slightly higher signal to noise ratio, more limited dynamic range (soft vs loud), and of course less computational power. There is a level of finesse that may be missing in production, but my goal is 90% of the fidelity found here.
 
 #### Why is everything in E?
-E2 is 82.407 Hz, which is the lowest note found in these studies. We may find in production that E2 feels muddy, and we can set a new bottom note accordingly.
+E2 is 82.407 Hz, which is the lowest note found in these studies and close to the bottom frequency reproduce-able by our sound system. We may find in production that E2 feels muddy, and we can set a new bottom note accordingly.
 
 #### Are there elements of this we can change in or closer to production?
 Yes, I plan on putting the timing (like how often the ambient sound triggers, and how long it plays), the amplitude (the volume of different sounds), and the harmony (which scales are played) in settings files so we can alter them on the fly over SSH on the Raspberry Pis.
