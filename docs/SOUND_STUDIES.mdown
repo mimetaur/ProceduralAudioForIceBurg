@@ -16,7 +16,7 @@ Secondly, I can most easily handle feedback like the below:
 1. "I like Option 1 of the Facet sound, but I would like the sound to not have as much treble (or high end) or bass."
 2. "The proximity sound seems kind of harsh. Can we mellow it out?"
 
-#### Are there elements of this we can change in or closer to production?
+#### Are there elements of this we can change in production?
 Yes, I plan on putting the timing (like how often the ambient sound triggers, and how long it plays), the amplitude (the volume of different sounds), and the harmony (which scales are played) in settings files so we can alter them on the fly over SSH on the Raspberry Pis.
 
 #### Will the production version sound different than these?
