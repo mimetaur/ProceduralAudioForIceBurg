@@ -12,8 +12,8 @@ Firstly, read this document and listen to all sound samples. In many cases there
 In the following studies, I used two scales, E Neapolitan Major and E Enigmatic. I recommend we use the same scale for both the ambient/proximity sound and the facet sound to avoid musical clashes as the sculpture transitions from "ambient/proximity mode" to "facet interaction mode".
 
 Secondly, I can most easily handle feedback like the below:
-1. "I like Option 1 of the Facet sound, but I would like the sound to not have as much treble (or high end) or bass."
 
+1. "I like Option 1 of the Facet sound, but I would like the sound to not have as much treble (or high end) or bass."
 2. "The proximity sound seems kind of harsh. Can we mellow it out?"
 
 #### Are there elements of this we can change in or closer to production?
