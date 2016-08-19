@@ -42,6 +42,8 @@ This version sounds slightly more mysterious, and less clearly uplifting than Op
 ## Proximity Sound
 Proximity triggers both volume and harmonic complexity to the ambient sound. I'm expecting a lot of proximity on and off events so I created a smooth fade-in and fade-out.
 
+The proximity sound will use the same scale as the ambient sound.
+
 I'm only showing one option here, but we can make this sound less or more harmonically rich, softer or louder.
 
 [Ice-Burg Sound Study - Examples of Proximity Affecting Ambient Sound](https://clyp.it/14i1hz3d)
