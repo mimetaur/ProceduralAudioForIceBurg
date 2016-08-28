@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1058.0, 79.0, 956.0, 1039.0 ],
+		"rect" : [ 1058.0, 79.0, 624.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2695,8 +2695,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 2799.171875, 0.702381, 2, 0.35, 8000.0, 0.0, 0, -0.4 ],
-					"domain" : 8000.0,
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 5465.838379, 0.761905, 2, -0.35, 12000.0, 0.0, 0, 0.25 ],
+					"domain" : 12000.0,
 					"id" : "obj-11",
 					"maxclass" : "function",
 					"mode" : 1,
@@ -2768,6 +2768,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.0, 1079.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -2781,6 +2785,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.0, 18.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -3374,8 +3382,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

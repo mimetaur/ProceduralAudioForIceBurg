@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 79.0, 956.0, 1039.0 ],
+		"rect" : [ 34.0, 79.0, 956.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -463,9 +463,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 440.950012, 195.0, 54.0, 22.0 ],
+					"patching_rect" : [ 440.950012, 195.0, 48.0, 22.0 ],
 					"style" : "",
-					"text" : "+ 10000"
+					"text" : "+ 5000"
 				}
 
 			}
@@ -476,9 +476,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 440.950012, 165.0, 88.0, 22.0 ],
+					"patching_rect" : [ 440.950012, 165.0, 81.0, 22.0 ],
 					"style" : "",
-					"text" : "random 10000"
+					"text" : "random 5000"
 				}
 
 			}
@@ -2390,7 +2390,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 1085.0, 45.0, 45.0 ],
+					"patching_rect" : [ 296.5, 1087.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -2593,7 +2593,7 @@
 					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 317.5, 1080.0, 320.5, 1080.0 ],
+					"midpoints" : [ 317.5, 1080.0, 332.0, 1080.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -2603,7 +2603,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 317.5, 1071.0, 294.5, 1071.0 ],
+					"midpoints" : [ 317.5, 1071.0, 306.0, 1071.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -3376,7 +3376,7 @@
 			}
 , 			{
 				"name" : "scales.txt",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v2",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -3418,8 +3418,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
