@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 956.0, 1039.0 ],
+		"rect" : [ 38.0, 79.0, 956.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -203,9 +203,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 310.383209, 170.666672, 127.0, 22.0 ],
+					"patching_rect" : [ 310.383209, 170.666672, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "tonal_pitch_generator"
+					"text" : "tonal_pitch_generator_v1"
 				}
 
 			}
@@ -923,9 +923,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 625.866638, 676.966553, 80.0, 22.0 ],
+					"patching_rect" : [ 625.866638, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vectorVoice~"
+					"text" : "vector_voice_v1~"
 				}
 
 			}
@@ -936,9 +936,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 513.866638, 676.966553, 80.0, 22.0 ],
+					"patching_rect" : [ 513.866638, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vectorVoice~"
+					"text" : "vector_voice_v1~"
 				}
 
 			}
@@ -949,9 +949,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 404.266693, 676.966553, 80.0, 22.0 ],
+					"patching_rect" : [ 404.266693, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vectorVoice~"
+					"text" : "vector_voice_v1~"
 				}
 
 			}
@@ -962,9 +962,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 292.266693, 676.966553, 80.0, 22.0 ],
+					"patching_rect" : [ 292.266693, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vectorVoice~"
+					"text" : "vector_voice_v1~"
 				}
 
 			}
@@ -1079,9 +1079,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 182.666687, 676.966553, 80.0, 22.0 ],
+					"patching_rect" : [ 182.666687, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vectorVoice~"
+					"text" : "vector_voice_v1~"
 				}
 
 			}
@@ -3637,9 +3637,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 70.666695, 676.966553, 80.0, 22.0 ],
+					"patching_rect" : [ 70.666695, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vectorVoice~"
+					"text" : "vector_voice_v1~"
 				}
 
 			}
@@ -3752,7 +3752,7 @@
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 124.416695, 513.0, 150.0, 513.0, 150.0, 663.0, 141.166687, 663.0 ],
+					"midpoints" : [ 124.416695, 513.0, 150.0, 513.0, 150.0, 663.0, 165.166687, 663.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -3782,7 +3782,7 @@
 					"destination" : [ "obj-109", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 735.666687, 663.0, 665.866638, 663.0 ],
+					"midpoints" : [ 735.666687, 663.0, 677.866638, 663.0 ],
 					"source" : [ "obj-101", 0 ]
 				}
 
@@ -3811,7 +3811,7 @@
 					"destination" : [ "obj-110", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 612.333374, 600.0, 567.0, 600.0, 567.0, 663.0, 553.866638, 663.0 ],
+					"midpoints" : [ 612.333374, 600.0, 567.0, 600.0, 567.0, 663.0, 565.866638, 663.0 ],
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -3861,7 +3861,7 @@
 					"destination" : [ "obj-107", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 440.499969, 513.0, 417.0, 513.0, 417.0, 600.0, 474.766693, 600.0 ],
+					"midpoints" : [ 440.499969, 513.0, 417.0, 513.0, 417.0, 600.0, 498.766693, 600.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -4073,7 +4073,7 @@
 					"destination" : [ "obj-110", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 546.5, 600.0, 584.366638, 600.0 ],
+					"midpoints" : [ 546.5, 600.0, 608.366638, 600.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -4163,7 +4163,7 @@
 					"destination" : [ "obj-109", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 652.5, 600.0, 696.366638, 600.0 ],
+					"midpoints" : [ 652.5, 600.0, 720.366638, 600.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -4818,7 +4818,7 @@
 					"destination" : [ "obj-86", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 228.499985, 513.0, 270.0, 513.0, 270.0, 663.0, 253.166687, 663.0 ],
+					"midpoints" : [ 228.499985, 513.0, 270.0, 513.0, 270.0, 663.0, 277.166687, 663.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -4828,7 +4828,7 @@
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 118.666695, 663.0, 110.666695, 663.0 ],
+					"midpoints" : [ 118.666695, 663.0, 122.666695, 663.0 ],
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -4848,7 +4848,7 @@
 					"destination" : [ "obj-86", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 238.5, 663.0, 222.666687, 663.0 ],
+					"midpoints" : [ 238.5, 663.0, 234.666687, 663.0 ],
 					"source" : [ "obj-83", 0 ]
 				}
 
@@ -4937,7 +4937,7 @@
 					"destination" : [ "obj-107", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 474.666718, 663.0, 444.266693, 663.0 ],
+					"midpoints" : [ 474.666718, 663.0, 456.266693, 663.0 ],
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -4957,7 +4957,7 @@
 					"destination" : [ "obj-108", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 334.499969, 513.0, 384.0, 513.0, 384.0, 663.0, 362.766693, 663.0 ],
+					"midpoints" : [ 334.499969, 513.0, 384.0, 513.0, 384.0, 663.0, 386.766693, 663.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -4977,7 +4977,7 @@
 					"destination" : [ "obj-108", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 354.666718, 663.0, 332.266693, 663.0 ],
+					"midpoints" : [ 354.666718, 663.0, 344.266693, 663.0 ],
 					"source" : [ "obj-95", 0 ]
 				}
 
@@ -4993,14 +4993,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "vectorVoice~.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"name" : "vector_voice_v1~.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "touches_asc.txt",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -5017,14 +5017,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tonal_pitch_generator.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"name" : "tonal_pitch_generator_v1.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scales.txt",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

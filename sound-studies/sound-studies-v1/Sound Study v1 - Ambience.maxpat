@@ -2010,9 +2010,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 871.899963, 495.200012, 287.0, 22.0 ],
+					"patching_rect" : [ 871.899963, 495.200012, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "tonal_pitch_generator"
+					"text" : "tonal_pitch_generator_v1"
 				}
 
 			}
@@ -2240,9 +2240,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 332.950012, 495.200012, 287.0, 22.0 ],
+					"patching_rect" : [ 332.950012, 495.200012, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "tonal_pitch_generator"
+					"text" : "tonal_pitch_generator_v1"
 				}
 
 			}
@@ -2378,9 +2378,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 368.0, 828.0, 200.0, 22.0 ],
+					"patching_rect" : [ 368.0, 828.0, 217.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ ambienceVoiceA~ 8 @steal 1"
+					"text" : "poly~ ambience_voice_v1~ 8 @steal 1"
 				}
 
 			}
@@ -2483,7 +2483,7 @@
 					"destination" : [ "obj-94", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 422.0, 474.0, 409.450012, 474.0 ],
+					"midpoints" : [ 422.0, 474.0, 374.200012, 474.0 ],
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -2523,7 +2523,7 @@
 					"destination" : [ "obj-124", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 963.0, 480.0, 948.399963, 480.0 ],
+					"midpoints" : [ 963.0, 480.0, 913.149963, 480.0 ],
 					"source" : [ "obj-122", 0 ]
 				}
 
@@ -2533,7 +2533,7 @@
 					"destination" : [ "obj-124", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1037.899902, 480.0, 1015.399963, 480.0 ],
+					"midpoints" : [ 1037.899902, 480.0, 944.899963, 480.0 ],
 					"source" : [ "obj-123", 0 ]
 				}
 
@@ -2543,7 +2543,7 @@
 					"destination" : [ "obj-129", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1015.399963, 564.0, 969.899963, 564.0 ],
+					"midpoints" : [ 944.899963, 564.0, 969.899963, 564.0 ],
 					"source" : [ "obj-124", 1 ]
 				}
 
@@ -2553,7 +2553,7 @@
 					"destination" : [ "obj-151", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1015.399963, 531.0, 1128.949951, 531.0 ],
+					"midpoints" : [ 944.899963, 531.0, 1128.949951, 531.0 ],
 					"source" : [ "obj-124", 1 ]
 				}
 
@@ -2721,7 +2721,6 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 377.5, 876.0, 317.5, 876.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2770,7 +2769,7 @@
 					"destination" : [ "obj-124", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 638.199951, 480.0, 1082.399902, 480.0 ],
+					"midpoints" : [ 638.199951, 480.0, 976.649963, 480.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -2780,7 +2779,7 @@
 					"destination" : [ "obj-94", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 638.199951, 480.0, 543.450012, 480.0 ],
+					"midpoints" : [ 638.199951, 480.0, 437.700012, 480.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -3317,7 +3316,7 @@
 					"destination" : [ "obj-134", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 476.450012, 546.0, 691.950012, 546.0 ],
+					"midpoints" : [ 405.950012, 546.0, 691.950012, 546.0 ],
 					"source" : [ "obj-94", 1 ]
 				}
 
@@ -3327,7 +3326,7 @@
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 476.450012, 606.0, 450.450012, 606.0 ],
+					"midpoints" : [ 405.950012, 606.0, 450.450012, 606.0 ],
 					"source" : [ "obj-94", 1 ]
 				}
 
@@ -3337,7 +3336,7 @@
 					"destination" : [ "obj-94", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 496.900024, 474.0, 476.450012, 474.0 ],
+					"midpoints" : [ 496.900024, 474.0, 405.950012, 474.0 ],
 					"source" : [ "obj-96", 0 ]
 				}
 
@@ -3347,7 +3346,7 @@
 					"destination" : [ "obj-124", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 726.866638, 480.0, 1149.399902, 480.0 ],
+					"midpoints" : [ 726.866638, 480.0, 1008.399963, 480.0 ],
 					"source" : [ "obj-97", 0 ]
 				}
 
@@ -3357,27 +3356,27 @@
 					"destination" : [ "obj-94", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 726.866638, 480.0, 610.450012, 480.0 ],
+					"midpoints" : [ 726.866638, 480.0, 469.450012, 480.0 ],
 					"source" : [ "obj-97", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "ambienceVoiceA~.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"name" : "ambience_voice_v1~.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tonal_pitch_generator.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"name" : "tonal_pitch_generator_v1.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scales.txt",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-study-a",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
