@@ -2695,8 +2695,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 5465.838379, 0.761905, 2, -0.35, 12000.0, 0.0, 0, 0.25 ],
-					"domain" : 12000.0,
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 5465.838379, 0.761905, 2, 0.2, 7900.621094, 0.0, 0, -0.45 ],
+					"domain" : 8000.0,
 					"id" : "obj-11",
 					"maxclass" : "function",
 					"mode" : 1,
@@ -2768,10 +2768,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.0, 1079.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -2785,10 +2781,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.0, 18.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -3382,8 +3374,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
