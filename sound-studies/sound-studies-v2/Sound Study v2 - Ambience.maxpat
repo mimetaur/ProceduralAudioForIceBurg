@@ -2012,7 +2012,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 871.899963, 495.200012, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "tonal_pitch_generator_v1"
+					"text" : "tonal_pitch_generator_v2"
 				}
 
 			}
@@ -2242,7 +2242,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 332.950012, 495.200012, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "tonal_pitch_generator_v1"
+					"text" : "tonal_pitch_generator_v2"
 				}
 
 			}
@@ -2380,7 +2380,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 368.0, 828.0, 217.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ ambience_voice_v1~ 8 @steal 1"
+					"text" : "poly~ ambience_voice_v2~ 8 @steal 1"
 				}
 
 			}
@@ -3363,14 +3363,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "ambience_voice_v1~.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
+				"name" : "ambience_voice_v2~.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tonal_pitch_generator_v1.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
+				"name" : "tonal_pitch_generator_v2.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v2",
 				"type" : "JSON",
 				"implicit" : 1
 			}

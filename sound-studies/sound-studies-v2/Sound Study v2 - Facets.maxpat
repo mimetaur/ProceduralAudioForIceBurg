@@ -164,7 +164,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.266693, 229.268921, 89.733315, 22.0 ],
 					"style" : "",
-					"text" : "82.406891"
+					"text" : "69.295654"
 				}
 
 			}
@@ -205,7 +205,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 310.383209, 170.666672, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "tonal_pitch_generator_v1"
+					"text" : "tonal_pitch_generator_v2"
 				}
 
 			}
@@ -925,7 +925,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 625.866638, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vector_voice_v1~"
+					"text" : "vector_voice_v2~"
 				}
 
 			}
@@ -938,7 +938,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 513.866638, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vector_voice_v1~"
+					"text" : "vector_voice_v2~"
 				}
 
 			}
@@ -951,7 +951,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 404.266693, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vector_voice_v1~"
+					"text" : "vector_voice_v2~"
 				}
 
 			}
@@ -964,7 +964,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 292.266693, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vector_voice_v1~"
+					"text" : "vector_voice_v2~"
 				}
 
 			}
@@ -1081,7 +1081,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 182.666687, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vector_voice_v1~"
+					"text" : "vector_voice_v2~"
 				}
 
 			}
@@ -3639,7 +3639,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 70.666695, 676.966553, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "vector_voice_v1~"
+					"text" : "vector_voice_v2~"
 				}
 
 			}
@@ -4993,14 +4993,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "vector_voice_v1~.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
+				"name" : "vector_voice_v2~.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "touches_asc.txt",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v2",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -5017,8 +5017,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tonal_pitch_generator_v1.maxpat",
-				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v1",
+				"name" : "tonal_pitch_generator_v2.maxpat",
+				"bootpath" : "~/Development/ice-burg-sound/sound-studies/sound-studies-v2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
