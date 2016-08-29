@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 74.0, 79.0, 1348.0, 1039.0 ],
+		"rect" : [ 349.0, 79.0, 1348.0, 1039.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 447.0, 484.0, 94.0, 22.0 ],
 					"style" : "",
-					"text" : "setrange 0. 0.6."
+					"text" : "setrange 0. 0.9."
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 551.5, 484.0, 84.0, 22.0 ],
 					"style" : "",
-					"text" : "setrange 0. 1."
+					"text" : "setrange 0. 2."
 				}
 
 			}
@@ -212,7 +212,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 411.5, 300.799988, 61.0, 22.0 ],
 					"style" : "",
-					"text" : "random 4"
+					"text" : "random 3"
 				}
 
 			}
@@ -338,32 +338,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-49",
-					"markers" : [ -60, -48, -36, -24, -12, -6, 0, 6 ],
-					"markersused" : 8,
-					"maxclass" : "levelmeter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 690.683472, 1329.0, 128.0, 64.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "spectroscope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.683472, 1203.0, 300.0, 100.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -437,7 +411,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 49.0, 367.0, 74.0, 22.0 ],
 					"style" : "",
-					"text" : "51 54 59 64"
+					"text" : "52 56 59 63"
 				}
 
 			}
@@ -1024,7 +998,7 @@
 					"numinlets" : 12,
 					"numoutlets" : 12,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 560.549988, 304.0, 540.308411, 22.0 ],
+					"patching_rect" : [ 560.549988, 304.0, 540.30835, 22.0 ],
 					"style" : "",
 					"text" : "select 0 1 2 3 4 5 6 7 8 9 10"
 				}
@@ -1223,7 +1197,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 511.5, 578.0, 123.300049, 22.0 ],
 					"style" : "",
-					"text" : "V7"
+					"text" : "IΔ"
 				}
 
 			}
@@ -2828,7 +2802,11 @@
 					"patching_rect" : [ 132.0, 60.0, 52.0, 29.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 4, "obj-48", "kslider", "chord", 5, "obj-41", "toggle", "int", 0, 28, "obj-10", "multislider", "list", 0.98, 0.28, -0.14, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, -0.02, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-8", "multislider", "list", 0.54, 0.16, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-149", "multislider", "list", 0.46, -0.34, -0.04, 0.0, 0.1, 0.0, -0.04, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-36", "multislider", "list", 0.34, -0.3, 0.0, 0.02, -0.04, 0.0, 0.0, 0.0, 0.0, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-26", "multislider", "list", 0.42, -0.36, 0.0, 0.0, -0.04, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-115", "number", "int", 57, 5, "obj-116", "number", "int", 52, 5, "obj-117", "number", "int", 49, 5, "obj-118", "number", "int", 59, 5, "obj-190", "toggle", "int", 0, 4, "obj-191", "function", "clear", 8, "obj-191", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-191", "function", "add_with_curve", 57.180851, 0.466667, 0, -0.45, 8, "obj-191", "function", "add_with_curve", 288.563843, 0.0, 0, -0.5, 5, "obj-191", "function", "domain", 500.0, 6, "obj-191", "function", "range", 0.0, 1.0, 5, "obj-191", "function", "mode", 1, 6, "obj-202", "gain~", "list", 119, 10.0, 5, "obj-207", "toggle", "int", 0, 4, "obj-220", "function", "clear", 8, "obj-220", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-220", "function", "add_with_curve", 3650.265869, 0.266667, 0, -0.0, 8, "obj-220", "function", "add_with_curve", 6761.968262, 0.0, 0, -0.1, 5, "obj-220", "function", "domain", 7500.0, 6, "obj-220", "function", "range", 0.0, 1.0, 5, "obj-220", "function", "mode", 1 ]
+							"data" : [ 4, "obj-48", "kslider", "chord", 5, "obj-41", "toggle", "int", 0, 28, "obj-10", "multislider", "list", 0.98, 0.28, -0.14, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, -0.02, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-8", "multislider", "list", 0.54, 0.16, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-149", "multislider", "list", 0.46, -0.34, -0.04, 0.0, -0.04, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-36", "multislider", "list", 0.34, -0.3, 0.0, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-26", "multislider", "list", 0.42, -0.36, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-115", "number", "int", 59, 5, "obj-116", "number", "int", 54, 5, "obj-117", "number", "int", 51, 5, "obj-118", "number", "int", 64, 5, "obj-190", "toggle", "int", 0, 4, "obj-191", "function", "clear", 8, "obj-191", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-191", "function", "add_with_curve", 57.180851, 0.466667, 0, -0.45, 8, "obj-191", "function", "add_with_curve", 288.563843, 0.0, 0, -0.5, 5, "obj-191", "function", "domain", 500.0, 6, "obj-191", "function", "range", 0.0, 1.0, 5, "obj-191", "function", "mode", 1, 6, "obj-202", "gain~", "list", 119, 10.0, 5, "obj-207", "toggle", "int", 0, 4, "obj-220", "function", "clear", 8, "obj-220", "function", "add_with_curve", 398.936157, 0.0, 0, 0.0, 8, "obj-220", "function", "add_with_curve", 2553.191406, 0.16, 0, 0.1, 8, "obj-220", "function", "add_with_curve", 3670.212646, 0.16, 0, 0.1, 8, "obj-220", "function", "add_with_curve", 6462.766113, 0.0, 0, -0.2, 5, "obj-220", "function", "domain", 7500.0, 6, "obj-220", "function", "range", 0.0, 1.0, 5, "obj-220", "function", "mode", 1 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 4, "obj-48", "kslider", "chord", 5, "obj-41", "toggle", "int", 0, 28, "obj-10", "multislider", "list", 0.98, 0.28, -0.14, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, -0.02, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-8", "multislider", "list", 0.54, 0.16, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-149", "multislider", "list", 0.46, -0.34, -0.04, 0.0, -0.04, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-36", "multislider", "list", 0.34, -0.3, 0.0, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, -0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 28, "obj-26", "multislider", "list", 0.42, -0.36, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5, "obj-115", "number", "int", 59, 5, "obj-116", "number", "int", 54, 5, "obj-117", "number", "int", 51, 5, "obj-118", "number", "int", 64, 5, "obj-190", "toggle", "int", 0, 4, "obj-191", "function", "clear", 8, "obj-191", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-191", "function", "add_with_curve", 57.180851, 0.466667, 0, -0.45, 8, "obj-191", "function", "add_with_curve", 288.563843, 0.0, 0, -0.5, 5, "obj-191", "function", "domain", 500.0, 6, "obj-191", "function", "range", 0.0, 1.0, 5, "obj-191", "function", "mode", 1, 6, "obj-202", "gain~", "list", 119, 10.0, 5, "obj-207", "toggle", "int", 0, 4, "obj-220", "function", "clear", 8, "obj-220", "function", "add_with_curve", 398.936157, 0.0, 0, 0.0, 8, "obj-220", "function", "add_with_curve", 2553.191406, 0.16, 0, 0.1, 8, "obj-220", "function", "add_with_curve", 3670.212646, 0.16, 0, 0.1, 8, "obj-220", "function", "add_with_curve", 6462.766113, 0.0, 0, -0.2, 5, "obj-220", "function", "domain", 7500.0, 6, "obj-220", "function", "range", 0.0, 1.0, 5, "obj-220", "function", "mode", 1 ]
 						}
  ],
 					"style" : ""
@@ -3391,24 +3369,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-201", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-202", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-202", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-202", 0 ]
