@@ -343,7 +343,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.549896, 1220.5, 34.0, 22.0 ],
+					"patching_rect" : [ 430.549896, 1140.5, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -356,7 +356,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.900024, 1237.5, 75.0, 22.0 ],
+					"patching_rect" : [ 516.900024, 1157.5, 75.0, 22.0 ],
 					"style" : "",
 					"text" : "startwindow"
 				}
@@ -368,7 +368,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.133362, 1361.833496, 38.0, 22.0 ],
+					"patching_rect" : [ 602.133362, 1281.833496, 38.0, 22.0 ],
 					"style" : "",
 					"text" : "dac~"
 				}
@@ -384,7 +384,7 @@
 					"orientation" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 514.400024, 1196.5, 35.0, 95.0 ],
+					"patching_rect" : [ 613.400024, 1116.5, 35.0, 95.0 ],
 					"style" : ""
 				}
 
@@ -2721,7 +2721,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 786.449951, 1042.199951, 103.0, 22.0 ],
+					"patching_rect" : [ 646.0, 1001.199951, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend midinote"
 				}
@@ -2734,7 +2734,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 786.449951, 1007.600098, 56.0, 22.0 ],
+					"patching_rect" : [ 646.0, 966.600098, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "pack 0 0"
 				}
@@ -2837,7 +2837,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 786.449951, 1095.0, 223.0, 22.0 ],
+					"patching_rect" : [ 646.0, 1054.0, 223.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ ambience_voice_v2~ 16 @steal 1"
 				}
