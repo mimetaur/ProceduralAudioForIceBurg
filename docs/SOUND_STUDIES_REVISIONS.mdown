@@ -29,7 +29,7 @@ The proximity sound has been smoothed back a little bit to reflect the overall t
 
 *"Can you increase the intensity/variation of different levels of feedback in Facet? The variation in Facet currently is very subtle, which may lead to a lack of clarity of how people are associating sound with touching the structure. For example, the variation in sound from one person touching the structure vs. 5 or 6. We are imagining a noticeably more complex sound at 5 or 6 people vs. one person."*
 
-The volume gets louder and the timbre gets brighter exponentially as more users put their hands on the sculpture.
+The volume gets louder and the timbre gets brighter exponentially as more users put their hands on the sculpture. In the sound sample above, you'll hear the sound of six touch events building up over time, then breaking down back to none, followed by six correspondence events building up over time, then breaking back down to none.
 
 *"We are a little concerned that the “fade in” Facet may not be ideal, feedback may be too subtle (during fade in) and people may not leave their hand on long enough to realize that there is feedback happening."*
 
