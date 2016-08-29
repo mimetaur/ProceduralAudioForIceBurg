@@ -1,0 +1,36 @@
+# Ice-Burg
+### Sound Studies Revisions v2.1
+
+#### Ice-Burg Ambient Sound v2.1
+
+[Ice-Burg Ambient Sound in E Major (Revision 2.1)](https://clyp.it/3f0pmdnh)
+
+*"Is there anyway to make the overall tone more upbeat and inviting? In general, the overall tone is somber and melancholy."*
+
+The chord progression has been sped up and given a strong tonal center around E Major. You should hear a more uplifting quality in the chords now.
+
+*"One tone (sound) that we specifically found disinviting is the ringing sound  in Ambient Sound (E Neapolitan Major ~:10s in) which may be too taxing on the ear, especially if this will be playing continuously. A more inviting sound would help draw people to the structure."*
+
+The overall harmonics and timbre of the ambient sound has been smoothed out and should be an easier listen over long periods.
+
+*"It would be great if the sounds invited people to come together. One way of describing that sound is: Imagine different species of birds chirping in trees, their varied chirps blending together to create one large, cheerful sound."*
+
+There is now an arpeggiated melodic element that weaves in and out over time, though more rarely than the chords to avoid irritating listeners. This should give it a more inviting quality.
+
+#### Ice-Burg Proximity Sound v2.1
+
+[Ice-Burg Proximity Sound in E Major (Revision 2.1)](https://clyp.it/avn2m20y)
+
+The proximity sound has been smoothed back a little bit to reflect the overall tone of the ambient sound. Proximity also triggers the melodic element mentioned above.
+
+#### Ice-Burg Facet Sound v2.1
+
+[Ice-Burg Facet Sounds in E Major (Revision 2.1)](https://clyp.it/ujc5cltv)
+
+*"Can you increase the intensity/variation of different levels of feedback in Facet? The variation in Facet currently is very subtle, which may lead to a lack of clarity of how people are associating sound with touching the structure. For example, the variation in sound from one person touching the structure vs. 5 or 6. We are imagining a noticeably more complex sound at 5 or 6 people vs. one person."*
+
+The volume gets louder and the timbre gets brighter exponentially as more users put their hands on the sculpture.
+
+*"We are a little concerned that the “fade in” Facet may not be ideal, feedback may be too subtle (during fade in) and people may not leave their hand on long enough to realize that there is feedback happening."*
+
+There is now a pronounced "attack" on each facet sound, which is different for each facet. It should now be much clearer to users that something happened when they put their hands on the sculpture.
