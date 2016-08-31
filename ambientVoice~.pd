@@ -1,0 +1,62 @@
+#N canvas 294 23 1471 1085 10;
+#X obj 104 55 inlet midinote;
+#X obj 101 955 outlet~ audio;
+#X obj 103 81 unpack 0 0;
+#X obj 102 127 swap, f 5;
+#X obj 230 175 select 0;
+#X obj 104 174 mtof;
+#X obj 104 212 float;
+#X obj 248 429 msgfile;
+#X obj 184 378 bang;
+#X obj 220 485 print;
+#X msg 363 385 print;
+#X msg 433 382 rewind;
+#X msg 241 385 read params.txt;
+#X obj 210 293 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 267 486 list trim;
+#X obj 266 520 list split 1;
+#X obj 216 557 print name;
+#X obj 301 558 print harmonics;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array wave1 19 float 3;
+#A 0 -0.385562 0 0.385562 0.709639 1 0.963281 0.607706 0.270251 0.0608665
+1.34534e-07 -0.0608652 -0.270246 -0.607701 -0.963279 -1 -0.709645 -0.385568
+-2.78037e-06 0.385556;
+#X coords 0 1 19 -1 485 190 1;
+#X restore 533 724 graph;
+#X obj 556 499 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 99 780 tabosc4~ wave1;
+#X floatatom 81 614 5 0 0 0 - - -, f 5;
+#X obj 238 895 dac~;
+#X obj 225 837 vol~;
+#X obj 250 685 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 86 644 mtof;
+#X msg 498 548 \; wave1 sinesum 24 0.98 0.28 -0.14 -0.02 0 0 0 0 0
+-0.02 -0.02 0 0 0 0 0 0 0 0 0 0 0 0 0 \; wave1 normalize 1 \;;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 3 1;
+#X connect 3 0 4 0;
+#X connect 3 0 5 0;
+#X connect 5 0 6 1;
+#X connect 7 0 9 0;
+#X connect 7 0 14 0;
+#X connect 8 0 7 0;
+#X connect 10 0 7 0;
+#X connect 11 0 7 0;
+#X connect 12 0 7 0;
+#X connect 13 0 8 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 15 1 17 0;
+#X connect 19 0 26 0;
+#X connect 20 0 1 0;
+#X connect 20 0 23 0;
+#X connect 21 0 25 0;
+#X connect 23 0 22 0;
+#X connect 23 0 22 1;
+#X connect 24 0 23 1;
+#X connect 25 0 20 0;
