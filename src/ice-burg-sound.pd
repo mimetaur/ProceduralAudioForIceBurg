@@ -530,7 +530,7 @@ version of the logic gate;
 #X connect 31 0 18 0;
 #X restore 585 198 pd sensor~;
 #X obj 545 91 print unpacked;
-#N canvas 330 23 1024 1107 ambient~ 1;
+#N canvas 666 23 1024 1107 ambient~ 1;
 #X obj 107 221 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 91 962 outlet~ audio;
