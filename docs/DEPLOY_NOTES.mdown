@@ -2,13 +2,14 @@
 
 
 1. Set up the initial Raspberry Pi OS using the [Adafruit Pi Finder Image](https://github.com/adafruit/Adafruit-Pi-Finder)
+1. Assuming you are using the Adafruit USB DAC, follow [these instructions on Adafruit:](https://learn.adafruit.com/usb-audio-cards-with-a-raspberry-pi/instructions) and [see this:](http://superuser.com/questions/989385/alsa-base-conf-missing-in-new-raspberry-pi-raspbian-jesse)
 2. Pull down this repository to **/home/pi/Development/ice-burg-sound**
-2. *sudo apt-get update && sudo-apt-get upgrade*
+2. *sudo apt-get update && sudo apt-get upgrade*
 3. *sudo apt-get install puredata* (this currently installs PD Vanilla v4.6.1)
 4. Install [deken](https://github.com/pure-data/deken) plugin system for PD
 5. VNC into Raspberry Pi, and start PD
-6. Go to Help | Find Externals and install *osc*, *creb*, and *zexy* - these should be installed in **/home/pi/pd-externals**
-7. Go to Preferences | Path and add *osc*, *creb*, and *zexy* folders (specified above) to Path
+6. Go to Help | Find Externals and install *creb*, *cyclone*, *osc* and *zexy* - these should be installed in **/home/pi/pd-externals**
+7. Go to Preferences | Path and add *creb*, *cyclone*, *osc* and *zexy* folders (specified above) to Path
 8. Go to Preferences | Startup and add "*zexy*" to list of libraries
 9. Close VNC
 10. *cp ./scripts/rc.local /etc/rc.local*
