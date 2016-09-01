@@ -530,7 +530,7 @@ version of the logic gate;
 #X connect 31 0 18 0;
 #X restore 552 180 pd sensor~;
 #X obj 512 73 print unpacked;
-#N canvas 1024 23 1024 1107 ambient~ 1;
+#N canvas 1024 23 1024 1107 ambient~ 0;
 #X obj 141 185 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 866 1059 outlet~ audio;
@@ -1324,7 +1324,7 @@ version of the logic gate;
 #X msg 514 79 0;
 #X obj 130 635 unpack s 0 0 0 0, f 71;
 #X msg 122 689 set \$1, f 9;
-#X msg 120 720 IV, f 9;
+#X msg 120 720 IΔ, f 9;
 #X floatatom 206 722 5 0 0 0 - - -, f 5;
 #X floatatom 339 722 5 0 0 0 - - -, f 5;
 #X floatatom 456 722 5 0 0 0 - - -, f 5;
@@ -1585,7 +1585,7 @@ version of the logic gate;
 #X text 490 647 Dependencies: creb cyclone osc zexy;
 #X obj 386 599 vol~;
 #X obj 543 415 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 10500 1;
+-1 -1 10300 1;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
 #X connect 2 0 20 0;
