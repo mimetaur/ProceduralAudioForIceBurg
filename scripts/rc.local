@@ -21,6 +21,6 @@ fi
 amixer  sset PCM,0 90%
 
 # launch pd with my script running
-/home/pi/bin/script_pd.sh
+/home/pi/bin/script_pd.sh &
 
 exit 0
