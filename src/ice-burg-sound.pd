@@ -1,5 +1,5 @@
 #N canvas 0 23 1024 1107 10;
-#X obj 449 543 dac~, f 5;
+#X obj 387 643 dac~, f 5;
 #X obj 532 31 netreceive -u -b 8000;
 #X obj 532 62 unpackOSC;
 #N canvas 317 420 1333 611 sensor~ 0;
@@ -530,7 +530,7 @@ version of the logic gate;
 #X connect 31 0 18 0;
 #X restore 585 198 pd sensor~;
 #X obj 545 91 print unpacked;
-#N canvas 330 23 1024 1107 ambient~ 1;
+#N canvas 330 23 1024 1107 ambient~ 0;
 #X obj 107 221 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 91 962 outlet~ audio;
@@ -1379,7 +1379,7 @@ version of the logic gate;
 #X connect 57 0 40 1;
 #X connect 57 0 41 1;
 #X connect 57 0 42 1;
-#X restore 354 319 pd ambient~;
+#X restore 337 386 pd ambient~;
 #X obj 29 26 loadbang;
 #X obj 325 259 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -1395,18 +1395,18 @@ version of the logic gate;
 #X msg 253 170 6000;
 #X obj 254 221 t b;
 #X obj 778 154 send volumenum;
-#X obj 552 470 receive volumenum;
+#X obj 483 556 receive volumenum;
 #X obj 532 119 routeOSC /iceburg/proximity /iceburg/sensor /iceburg/volume
 , f 62;
-#X text 551 528 Concept and Execution by Nathan Koch;
+#X text 489 628 Concept and Execution by Nathan Koch;
 #X obj 35 82 delay 100;
 #X msg 37 116 \; pd dsp 1;
 #X text 10 183 ensure the audio is present;
 #X text 12 197 before turning dsp on;
 #X obj 212 24 loadbang;
-#X text 552 547 Dependencies: creb cyclone osc zexy;
-#X obj 448 499 vol~;
-#X obj 488 350 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+#X text 490 647 Dependencies: creb cyclone osc zexy;
+#X obj 386 599 vol~;
+#X obj 449 442 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 10200 1;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
