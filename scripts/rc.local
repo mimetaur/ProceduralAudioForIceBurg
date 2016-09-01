@@ -17,11 +17,8 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-#  I believe this sets the audio device. This may need to be changed if it uses an external DAC
-sudo modprobe snd_bcm2835
-
-# Sets volume to 95% of maximum. Default is much lower (25%?)
-amixer  sset PCM,0 95%
+# Sets volume to 90% of maximum. Default is much lower (25%?)
+amixer  sset PCM,0 90%
 
 # launch pd with my script running
 /home/pi/bin/script_pd.sh
