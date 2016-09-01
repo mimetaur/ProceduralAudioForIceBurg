@@ -1,4 +1,4 @@
-#N canvas 0 23 1024 1107 10;
+#N canvas 324 23 1024 1107 10;
 #X obj 387 643 dac~, f 5;
 #X obj 499 13 netreceive -u -b 8000;
 #X obj 499 44 unpackOSC;
@@ -1324,7 +1324,7 @@ version of the logic gate;
 #X msg 514 79 0;
 #X obj 130 635 unpack s 0 0 0 0, f 71;
 #X msg 122 689 set \$1, f 9;
-#X msg 120 720 IΔ, f 9;
+#X msg 120 720 IV, f 9;
 #X floatatom 206 722 5 0 0 0 - - -, f 5;
 #X floatatom 339 722 5 0 0 0 - - -, f 5;
 #X floatatom 456 722 5 0 0 0 - - -, f 5;
@@ -1573,7 +1573,7 @@ version of the logic gate;
 #X msg 253 170 6000;
 #X obj 254 221 t b;
 #X obj 745 136 send volumenum;
-#X obj 581 563 receive volumenum;
+#X obj 547 354 receive volumenum;
 #X obj 499 101 routeOSC /iceburg/proximity /iceburg/sensor /iceburg/volume
 , f 62;
 #X text 489 628 Concept and Execution by Nathan Koch;
@@ -1584,7 +1584,7 @@ version of the logic gate;
 #X obj 212 24 loadbang;
 #X text 490 647 Dependencies: creb cyclone osc zexy;
 #X obj 386 599 vol~;
-#X obj 543 415 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 576 404 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 10300 1;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
@@ -1602,6 +1602,7 @@ version of the logic gate;
 #X connect 16 0 15 0;
 #X connect 17 0 8 0;
 #X connect 19 0 28 1;
+#X connect 19 0 29 0;
 #X connect 20 0 5 2;
 #X connect 20 1 3 0;
 #X connect 20 2 18 0;
