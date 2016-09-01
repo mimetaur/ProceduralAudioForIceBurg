@@ -40,7 +40,7 @@
 #X obj 399 355 list trim;
 #X obj 412 292 oscformat;
 #X obj 532 60 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X obj 510 117 / 127;
 #X msg 507 171 format f;
 #X msg 521 204 set iceburg proximity;
