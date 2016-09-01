@@ -12,7 +12,7 @@
 7. Go to Preferences | Path and add *creb*, *cyclone*, *osc* and *zexy* folders (specified above) to Path
 8. Go to Preferences | Startup and add "*zexy*" to list of libraries
 9. Close VNC
-10. *cp ./scripts/rc.local /etc/rc.local*
+10. crontab -e the following: @reboot sleep 30 ; /home/pi/bin/script_pd.sh
 11. *mkdir ~/bin*
 12. *cp ./scripts/script_pd.sh ~/bin/script_pd.sh*
 13. *sudo reboot*
