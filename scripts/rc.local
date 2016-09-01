@@ -19,8 +19,9 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-# Sets volume to 90% of maximum. Default is much lower (25%?)
-amixer sset PCM,0 90%
+# Sets volume to 80% of maximum. Default is much lower (44%)
+# Headphone is how ALSA sees the USB DAC
+amixer sset Headphone,0 80%
 
 # launch pd with my script running
 # /home/pi/bin/script_pd.sh

@@ -1320,7 +1320,7 @@ version of the logic gate;
 #X msg 514 79 0;
 #X obj 130 649 unpack s 0 0 0 0, f 71;
 #X msg 122 689 set \$1, f 9;
-#X msg 120 720 vi-7, f 9;
+#X msg 120 720 IΔ, f 9;
 #X floatatom 206 722 5 0 0 0 - - -, f 5;
 #X floatatom 339 722 5 0 0 0 - - -, f 5;
 #X floatatom 456 722 5 0 0 0 - - -, f 5;
@@ -1456,7 +1456,7 @@ version of the logic gate;
 #X obj 231 39 loadbang;
 #X obj 232 64 metro 5;
 #X obj 226 220 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 0.257435 256;
+-262144 -1 -1 0.35804 256;
 #X obj 372 89 delay 57;
 #X obj 299 63 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1725,7 +1725,7 @@ version of the logic gate;
 #X obj 574 463 vsl 15 128 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 12700 1;
 #X obj 676 329 loadbang;
-#X msg 678 357 120;
+#X msg 678 357 100;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
 #X connect 2 0 20 0;
