@@ -1,0 +1,6 @@
+#N canvas 881 23 603 351 10;
+#X obj 36 26 inlet freq;
+#X obj 124 26 inlet facetNum;
+#X obj 234 26 inlet facetStatus;
+#X obj 355 26 inlet facetSum;
+#X obj 39 290 outlet~ audio;
