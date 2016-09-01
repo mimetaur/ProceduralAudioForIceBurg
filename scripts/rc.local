@@ -11,6 +11,8 @@
 #
 # By default this script does nothing.
 
+echo "running rc.local" > /tmp/rc_test.txt
+
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
@@ -18,9 +20,9 @@ if [ "$_IP" ]; then
 fi
 
 # Sets volume to 90% of maximum. Default is much lower (25%?)
-amixer  sset PCM,0 90%
+amixer  sset PCM,0 80%
 
 # launch pd with my script running
-/home/pi/bin/script_pd.sh &
+/home/pi/bin/script_pd.sh
 
 exit 0
