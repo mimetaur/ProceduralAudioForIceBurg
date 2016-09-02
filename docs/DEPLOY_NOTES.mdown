@@ -8,8 +8,8 @@
 3. *sudo apt-get install puredata* (this currently installs PD Vanilla v4.6.1)
 4. Install [deken](https://github.com/pure-data/deken) plugin system for PD
 5. VNC into Raspberry Pi, and start PD
-6. Go to Help | Find Externals and install *creb*, *cyclone*, *osc* and *zexy* - these should be installed in **/home/pi/pd-externals**
-7. Go to Preferences | Path and add *creb*, *cyclone*, *osc* and *zexy* folders (specified above) to Path
+6. Go to Help | Find Externals and install *creb*, *cyclone*, *list-abs*, *osc* and *zexy* - these should be installed in **/home/pi/pd-externals**
+7. Go to Preferences | Path and add *creb*, *cyclone*, *list-abs*, *osc* and *zexy* folders (specified above) to Path
 8. Go to Preferences | Startup and add "*zexy*" to list of libraries
 9. Close VNC
 10. crontab -e the following: @reboot sleep 30 ; /home/pi/bin/script_pd.sh
